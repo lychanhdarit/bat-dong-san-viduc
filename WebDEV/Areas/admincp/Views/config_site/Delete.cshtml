@@ -1,0 +1,73 @@
+﻿@model WebDEV.Areas.admincp.Models.config_site
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>config_site</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.map_content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.map_content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contact_footer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contact_footer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.facebook_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.facebook_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.content1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.content1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.content2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.content2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.content3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.content3)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

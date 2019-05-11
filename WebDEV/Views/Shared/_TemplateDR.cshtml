@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title </title>
+    <meta name="keywords" content="@ViewBag.Keywords">
+    <meta name="description" content="@ViewBag.Description">
+    <meta property="og:url" itemprop="url" content="@ViewBag.URLcanonical" />
+    <meta property="og:title" content="@ViewBag.Title" />
+    <meta property="og:description" content="@ViewBag.Description" />
+    <meta property="og:image" content="@ViewBag.Picture" />
+    <link rel="canonical" href="@ViewBag.URLcanonical" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="WebDR">
+    <meta name="twitter:title" content="@ViewBag.Title">
+    <meta name="twitter:description" content="@ViewBag.Description">
+    <meta name="twitter:creator" content="DR">
+    <meta name="twitter:image:src" content="@ViewBag.Picture">
+    @Html.Raw(ViewBag.OGtype)
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="~/Content/pbx.css" rel="stylesheet" />
+    <script src="~/Scripts/pbx.js"></script>
+    <link href="~/Content/pxb-custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="shortcut icon" href="~/favicon.gif" />
+
+</head>
+<body>
+
+    <section id="section_head">
+        <h1 class="dpn">Công ty Phân Bón Quốc Tế - Phân bón NPK</h1>
+        <h2 class="dpn">Công ty Phân Bón Quốc Tế chuyên các dòng phân bón NPK, Phân bón hữu cơ, Phân bón rong biển và phân bón chuyên dùng. Phân Bón Quốc Tế cung cấp cho thị trường và bà con nông dân những chuẩn loại phân bón phong phú, đáp ứng hầu hết nhu cầu của cây trồng cũng như tiêu thụ.</h2><div id="head_top">
+            <div class="wrapper-center">
+                <div id="head_top_in">
+                    <div id="head_menu_top">
+                        <div class="block-menu-top">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="head_search">
+                        <div class="block-search">
+                            <form action="~/search/" id="form_search" method="post"><div class="box-search"><input type="text" id="search_keywords"  class="input-text" name="keyword" value="" required placeholder="Enter to search"> <i class="fa fa-search"></i></div></form>
+                        </div>
+                    </div>
+                    <div id="head_lang">
+                        <div class="block-lang">
+                            <div class="box-lang"><div class="box-control"><i class="english flag" onclick="jQuery('#lang_to').val('_english');jQuery('#form_change_lang').submit()"></i> <i class="vietnamese flag" onclick="jQuery('#lang_to').val('');jQuery('#form_change_lang').submit()"></i></div></div><form id="form_change_lang" method="post" action="/basic/redirect_lang"> <input type="hidden" id="lang_to" name="lang_to"> <input type="hidden" id="link_from" name="link_from" value="/"> </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div id="head_middle">
+            <div class="wrapper-center">
+                <div id="head_middle_in">
+                    <div id="logo">
+                        <div class="block-logo"><a href="/"><img src="~/content/logo.png" alt="Logo công ty Phân Bón Quốc Tế"></a></div>
+                    </div><div id="menu_main">
+                        <div class="block-menu-main o-dpn o-mi-lg-dpb">
+                            <ul class="box-menu-lg ">
+                                <li><a href="/"><i class="fa fa fa-home" style="font-size: 24px;"></i></a></li>
+                                @Html.Raw(ViewBag.Menu)
+
+                            </ul>
+                        </div>
+                        <style>
+                            #head_top-sticky-wrapper {
+                                z-index: 98;
+                                position: relative;
+                            }
+
+                            #head_middle-sticky-wrapper {
+                                z-index: 99;
+                                position: relative;
+                            }
+
+                                #head_middle-sticky-wrapper.is-sticky #head_middle {
+                                    background-color: #fff;
+                                    box-shadow: 0px 3px 3px #d4d4d4;
+                                }
+                        </style>
+                        <script>
+                            jQuery(function () {
+                                if (jQuery(window).width() > 768) {
+                                    jQuery("#head_top").sticky({ topSpacing: 0 });
+                                    jQuery("#head_middle").sticky({ topSpacing: 38 });
+                                }
+                            });
+
+                            function show_main_menu() {
+                                jQuery('.fixed-menu').show();
+                                jQuery('body').addClass('haohi');
+                            }
+
+                            function hide_main_menu() {
+                                jQuery('.fixed-menu').hide();
+                                jQuery('body').removeClass('haohi');
+                            }</script>
+                        <div class="block-menu-main-mobie o-bpb o-mi-lg-dpn">
+                            <div class="show-main-menu"><i class="fa fa-bars" onclick="show_main_menu()">Menu </i></div>
+                            <div class="fixed-menu" style="display:none">
+                                <div class="close-main-menu"><i class="fa fa-times" onclick="hide_main_menu()">Đóng </i></div>
+                                <ul class="box-menu-lg ">
+                                    @Html.Raw(ViewBag.MenuMobile)
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    @RenderBody()
+    <section id="section_footer">
+        <div class="wrapper-center dpfl">
+            <div id="footer_left" class="o-1-1 o-mi-sm-1-1 o-mi-lg-3-8">
+                <div class="block-footer">
+                    <a href="#"><h3 class="block-footer-title">CÔNG TY CỔ PHẦN Phân Bón Quốc Tế</h3></a>
+                    <div class="block-footer-content">
+                        <div class="block-info-contact">
+                            <div class="box-info box-address">
+                                <i class="fas fa-map-marker-alt"></i>  <span>Lô B118, Đường số 5, KCN Thái Hòa, Đức Lập Hạ, Đức Hòa, Long An</span>
+                            </div>
+                            <div class="box-info box-hotline"><i class="fas fa-mobile-alt"></i><span>Hotline: 0932 629 369</span></div>
+                            <div class="box-info box-phone"><i class="fas fa-phone-volume"></i><span>Điện Thoại: (072) 381 9812 - Fax : (072) 381 9813</span></div>
+                            <div class="box-info box-email"><i class="fa fa-envelope"></i><span>Email: phanbonquocte@gmail.com</span></div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="block-social">
+                    <div class="box-link tal"><span itemscope itemtype="http://schema.org/Organization"> <link itemprop="url" href="index.html"> <a itemprop="sameAs" class="facebook" href="https://www.facebook.com/congtyphanbonhalan/" target="_blank"><i class="fab fa-facebook-f"></i></a> <a itemprop="sameAs" class="youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a> <a itemprop="sameAs" class="google" href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a> <a itemprop="sameAs" class="skype" href="#" target="_blank"><i class="fab fa-skype"></i></a> <a itemprop="sameAs" class="zalo" href="http://shop.zalo.me/store/home?pageId=3207862639607632171&amp;utm_source=zalo&amp;utm_medium=zalo&amp;utm_campaign=zalo&amp;zarsrc=34" target="_blank"><img src="~/content/application/views/site/phanbon/block_type/social/zalo.png"></a> </span></div>
+                </div>
+            </div>
+            <div id="footer_center" class="o-1-1 o-mi-sm-1-2 o-mi-lg-3-8">
+                <div class="block-footer">
+                    <a href="#"><h3 class="block-footer-title">Bản đồ</h3></a>
+                    <div class="block-footer-content">
+                        <div class="block-facebook-page" style="width:100%">
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15670.274023262175!2d106.468684!3d10.920361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c7845c32785527e!2sFERTILIZER+CORPORATION+INTERNATIONAL!5e0!3m2!1sen!2s!4v1546618274620" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div id="footer_right" class="o-1-1 o-mi-sm-1-2 o-mi-lg-2-9">
+                <div class="call">
+                    <a href="Tel:"><i class="fas fa-phone"></i></a>
+                </div>
+                <a href="#"><h3 class="block-footer-title">Facebook</h3></a>
+                <div id="fb-root"></div>
+                <script>
+                    (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=387285768107352&autoLogAppEvents=1';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-page" data-href="https://www.facebook.com/thietkewebsitedaric" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thietkewebsitedaric" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/thietkewebsitedaric">Thiết Kế Web - DR</a></blockquote></div>
+
+                <div class="back-to-top"><i id="scroll_to_top" class=" fas fa-angle-up"></i></div>
+                <script>
+                    jQuery(document).ready(function () {
+                        //Check to see if the window is top if not then display button
+                        jQuery(window).scroll(function () {
+                            if (jQuery(this).scrollTop() > 100) {
+                                jQuery('#scroll_to_top').fadeIn();
+                            } else {
+                                jQuery('#scroll_to_top').fadeOut();
+                            }
+                        });
+
+                        //Click event to scroll to top
+                        jQuery('#scroll_to_top').click(function () {
+                            jQuery('html, body').animate({ scrollTop: 0 }, 800);
+                            return false;
+                        });
+
+                    });</script>
+            </div>
+        </div>
+    </section>
+    <section id="root"><div class="wrapper-center"><a href="/">Designed by Thiết kế website DR</a></div></section>
+    <script>
+        var hash = window.location.hash;
+        if (jQuery(hash).length && hash) window.location.hash = '';
+
+
+        $(window).load(function () {
+            if (jQuery(hash).length && hash) {
+                jQuery('html,body').animate({ scrollTop: jQuery(hash).offset().top - 90 }, 300);
+
+            }
+        });</script>
+</body>
+</html>

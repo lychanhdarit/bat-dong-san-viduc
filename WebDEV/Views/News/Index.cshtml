@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebDEV.Areas.admincp.Models.news>
+@{
+
+    Layout = "~/Views/Shared/_RealPlaceDetails.cshtml";
+}
+<style>
+    .gallery-title-wrapper {
+        padding: 16px 20px 25px 20px;
+    }
+</style>
+<div class="page-head " style="background: url(../real-places/images/banner.jpg) #494c53 no-repeat center top;  background-size: cover;">
+    <div class="container">
+        <div class="page-head-content">
+            <h1 class="page-title"><span>@ViewBag.Name</span></h1>
+        </div>
+    </div>
+</div>
+<!-- .page-head -->
+<div id="content-wrapper" class="site-content-wrapper site-pages">
+    <div id="content" class="site-content layout-boxed">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 site-main-content">
+                    <main id="main" class="site-main">
+                      
+                        <div id="gallery-container" class="gallery-container gallery-3-columns gallery-post-listing isotope row">
+                            @foreach (var item in Model)
+                            {
+                                <div class="col-xs-6 for-sale col-md-4 col-gallery-item isotope-item for-sale ">
+                                    <article class="gallery-post-item gallery-listing-post clearfix hentry">
+                                        <figure class="gallery-thumbnail">
+                                            <div class="media-container">
+                                                <div class="btn-wrapper">
+                                                    <a class="search-plus swipebox" href="~/Upload/images/news/@item.images" title="Photo"><i class="fa fa-search-plus"></i></a>
+                                                    <a class="external-link" href="~/@item.url"><i class="fa fa-external-link"></i></a>
+                                                </div>
+                                            </div>
+                                            <img class="img-responsive" src="~/Upload/images/news/@item.images" alt="@item.name">
+                                        </figure>
+                                        <div class="gallery-title-wrapper">
+                                            <h3 class="gallery-item-title entry-title">
+                                                <a href="~/@item.url" title="@item.name">@item.name</a>
+                                            </h3>
+                                        </div>
+                                    </article>
+                                    <!-- .gallery-post-item -->
+                                </div>
+                                <!-- .col-gallery-item -->
+
+                            }
+
+
+
+                        </div>
+                        <!-- .gallery-container -->
+                    </main>
+                    <!-- .site-main -->
+                </div>
+                <!-- .site-main-content -->
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </div>
+    <!-- .site-content -->
+</div>
+<!-- .site-content-wrapper -->

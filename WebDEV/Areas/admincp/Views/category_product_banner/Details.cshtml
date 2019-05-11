@@ -1,0 +1,43 @@
+﻿@model WebDEV.Areas.admincp.Models.category_product_banner
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>category_product_banner</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Note)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.picture_group.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.picture_group.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.product_category.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.product_category.name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

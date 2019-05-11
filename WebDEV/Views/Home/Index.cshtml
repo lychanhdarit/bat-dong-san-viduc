@@ -1,0 +1,211 @@
+﻿@{
+    Layout = "~/Views/Shared/_RealPlace.cshtml";
+}
+<!-- .site-header -->
+<div class="homepage-slider slider-variation-three flexslider slider-loader">
+    <ul class="slides">
+        @Html.Raw(ViewBag.Slider)
+    </ul>
+</div>
+
+<style>
+    .dich-vu {
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+    .dich-vu .linkFooter {
+        display: flex;
+        flex-wrap: nowrap; 
+    }
+    .linkCheck {
+        display: block;
+        background: #971718;
+        padding:2px;
+    }
+    .text-img {
+        width: 80%;
+        width: 80%;
+        text-align: right;
+        padding: 10px;
+        color: #fff;
+    }
+    .welcome-text {
+        margin-bottom: 25px;
+        text-align: left;
+        color: #971718;
+    }
+        .welcome-text .title {
+            color: #971718;
+            
+            margin-bottom: 0px;
+        }
+     
+    .nhan-tin {
+        background: url(../../Content/city-wallpaper-6.jpg) #ffe2e4;
+       
+        background-attachment: fixed;
+    }
+        .nhan-tin .second {
+            padding: 80px;
+            background: rgba(82, 82, 82, 0.8);
+        }
+    .form-control {
+        border: none;
+        border-radius: 8px !important;
+        width: 100%;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .btn {
+        border: 1px solid #0575a7;
+        border-radius: 8px !important;
+        width: 100%;
+        padding: 10px;
+        background: #0575a7;
+        text-align: center;
+        color:#fff
+    }
+</style>
+
+<div id="content-wrapper" class="site-content-wrapper">
+    <div id="content" class="site-content layout-wide">
+        <main id="main" class="site-main">
+
+            <div class="property-listing-three">
+                <div class="container">
+                    <div class="welcome-text">
+                        <h2 class="title">Dịch Vụ Bạn Quan Tâm</h2>
+                        <img src="~/Content/line.jpg" style="max-width:100%" />
+                    </div>
+                    <div class="row">
+                        @Html.Raw(ViewBag.content1)
+                        @*<div class="col-xs-6 custom-col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="dich-vu">
+                                <div class="hinh">
+                                    <img class="img-responsive" src="../upload/images/products/nt-t.jpg" alt=".">
+                                </div>
+                                <a href="/" class="linkCheck">
+                                    <div class="linkFooter">
+                                        <div>
+                                            <img src="~/Content/link-p.png" />
+                                        </div>
+                                        <div class="text-img">
+                                            Mua Bán Nhà - Đất
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>*@
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            <img src="~/Content/banner-f.jpg" style="width:100%" />
+            <div class="property-listing-three" style="background:#ffe2e4">
+                <div class="container">
+                    <div class="welcome-text">
+                        <h2 class="title">Bất Động Sản Mới Cập Nhật</h2>
+                        <img src="~/Content/line.jpg" style="max-width:100%" />
+                    </div>
+                    <div class="row">
+                        @Html.Raw(ViewBag.ProductHome)
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            <div class="nhan-tin">
+                <div class="second">
+                    <div class="container" style="max-width:800px">
+                        <h3 style="text-align:center;color:#fff;margin-bottom: 5px;">Hãy để chúng tôi giúp bạn tìm thấy ngôi nhà mơ ước</h3>
+                        <p style="text-align:center;color:#fff;    margin-bottom: 20px;">
+                            Đăng ký nhận tin bất động sản miễn phí tại đây
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input id="txtEmail" type="text" class="form-control" placeholder="Email" />
+                            </div>
+                            <div class="col-md-4">
+                                <input id="txtPhone" type="text" class="form-control" placeholder="Số điện thoại" />
+                            </div>
+                            <div class="col-md-4">
+                                <input id="Button1" type="button" value="NHẬN TIN MIỄN PHÍ" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .featured-properties-three -->
+            <!-- .submit-property-section -->
+            <div class="property-listing-three"  >
+                <div class="container">
+                    <div class="welcome-text">
+                        <h2 class="title">Tin Tức</h2>
+                        <img src="~/Content/line.jpg" style="max-width:100%" />
+                    </div>
+                    <div class="row">
+                        @Html.Raw(ViewBag.NewsHome)
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            
+            @*<!-- .property-listing-variation-three -->
+        <div class="featured-properties-three">
+            <div class="container">
+                <header class="section-header">
+                    <h3 class="section-title">Bất động sản bán</h3>
+                </header>
+                <div class="row">
+                    @Html.Raw(ViewBag.BDSBan)
+
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </div>*@
+
+            @*<!-- .featured-properties-three -->
+        <!-- .submit-property-section -->
+        <section class="home-recent-posts home-recent-posts-two">
+            <div class="container">
+                <header class="section-header">
+                    <h3 class="section-title">Tin tức</h3>
+                    <div class="recent-posts-carousel-nav carousel-nav">
+                        <a class="carousel-prev-item prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arrow-container" width="32" height="52" viewBox="0 0 32 52">
+                                <g class="left-arrow" fill="#fff">
+                                    <path opacity=".5" d="M31.611 7.646l-6.787-7.057-24.435 25.406 6.787 7.057z" />
+                                    <path d="M.389 26.006l6.787-7.058 24.435 25.406-6.787 7.057z" />
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="carousel-next-item next">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="arrow-container" width="32" height="52" viewBox="0 0 32 52">
+                                <g class="right-arrow" fill-rule="evenodd" clip-rule="evenodd" fill="#fff">
+                                    <path d="M.388 44.354l6.788 7.057 24.436-25.406-6.788-7.057-24.436 25.406z" />
+                                    <path opacity=".5" d="M31.612 25.994l-6.788 7.058-24.436-25.406 6.788-7.057 24.436 25.405z" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </header>
+                <div class="recent-posts-carousel">
+                    <div class="owl-carousel">
+                        @Html.Raw(ViewBag.NewsHome)
+                    </div>
+                </div>
+            </div>
+            <!-- .container -->
+        </section>
+        <!-- .home-recent-posts -->*@
+
+        </main>
+        <!-- .site-main -->
+    </div>
+    <!-- .site-content -->
+</div>
+<!-- .site-content-wrapper -->

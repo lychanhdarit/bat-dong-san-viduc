@@ -1,0 +1,57 @@
+﻿@model WebDEV.Areas.admincp.Models.inbox
+
+@{
+    ViewBag.Title = "Hợp thư";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    textarea {
+        width: 100%;
+        border: 1px solid #d1d1d1;
+        border-radius: 0px;
+    }
+
+    .form-control {
+        width: 100%;
+        border: 1px solid #d1d1d1;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+</style>
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Hộp thư</h2>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<div>
+    <div class="dl-horizontal">
+        <div class="col-md-12" style="padding-top:10px;padding-bottom:10px">
+            <h3>
+               Chủ đề: @Html.DisplayFor(model => model.subject)
+            </h3>
+        </div>
+        <div class="col-md-12" style="padding-top:10px;padding-bottom:10px;border-bottom:1px solid #f3f3f3">
+            <b>Họ tên:</b> @Html.DisplayFor(model => model.name)
+        </div>
+
+        <div class="col-md-12" style="padding-top:10px;padding-bottom:10px;border-bottom:1px solid #f3f3f3">
+            <b>Email:</b> @Html.DisplayFor(model => model.email)
+        </div>
+
+        <div class="col-md-12" style="padding-top:10px;padding-bottom:10px;border-bottom:1px solid #f3f3f3">
+            <b>Điện thoại:</b> @Html.DisplayFor(model => model.phone)
+        </div>
+
+        <div class="col-md-12" style="font-weight:bold;padding-top:10px;padding-bottom:10px;">
+            Nội dung:
+        </div>
+        <div class="col-md-12" >
+            <div style="border:1px solid #f3f3f3;padding:10px">
+                @Html.DisplayFor(model => model.message)
+            </div>
+        </div>
+
+    </div>
+</div>
+

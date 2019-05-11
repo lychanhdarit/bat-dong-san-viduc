@@ -1,0 +1,70 @@
+﻿@model WebDEV.Areas.admincp.Models.news
+@{
+
+    Layout = "~/Views/Shared/_RealPlaceDetails.cshtml";
+}
+<!-- .site-header -->
+<div class="page-head " style="background: url(../real-places/images/banner.jpg) #494c53 no-repeat center top;  background-size: cover;">
+    <div class="container">
+        <div class="page-head-content">
+            <h2 class="page-title"><span>@Model.news_category.name</span></h2>
+        </div>
+    </div>
+</div>
+<!-- .page-head -->
+<div id="content-wrapper" class="site-content-wrapper site-pages">
+    <div id="content" class="site-content layout-boxed">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 site-main-content">
+                    <main id="main" class="site-main default-page blog-single-post clearfix">
+                        <article class="blog-post clearfix hentry format-gallery">
+                            <div class="blog-gallery-slider gallery-slider flexslider">
+                                <ul class="slides list-unstyled">
+                                    <li><a class="swipebox" data-rel="gallery-24" href="~/Upload/images/products/@Model.images"><img src="~/Upload/images/products/@Model.images" alt="@Model.name"></a></li>
+                                   
+                                </ul>
+                            </div>
+                            <header class="entry-header blog-post-entry-header">
+                                <h1 class="entry-title">@Model.name</h1>
+                            </header>
+                            <div class="entry-content clearfix">
+                                @Html.Raw(Model.content1)
+                            </div>
+                            @*<footer class="entry-footer">
+                                <span class="tag-links"><a href="#" rel="tag">interior</a><a href="#" rel="tag">living rooms</a></span>
+                            </footer>*@
+                        </article>
+
+                    </main>
+                    <!-- .site-main -->
+                </div>
+                <!-- .site-main-content -->
+                <div class="col-md-3 site-sidebar-content">
+                    <aside class="sidebar">
+
+                        <section class="widget widget-featured-properties">
+                            <h3 class="widget-title">Tin mới nhất</h3>
+                            <ul class="widget-featured-properties">
+                                @Html.Raw(ViewBag.ProductList)
+                            </ul>
+                        </section>
+
+                        <section class="widget widget-featured-properties">
+                            <h3 class="widget-title">Bài viết mới nhất</h3>
+                            <ul class="widget-featured-properties">
+                                @Html.Raw(ViewBag.NewsList)
+                            </ul>
+                        </section>
+                    </aside>
+                    <!-- .sidebar -->
+                </div>
+                <!-- .site-sidebar-content -->
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </div>
+    <!-- .site-content -->
+</div>
+<!-- .site-content-wrapper -->

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WebDEV.Areas.admincp.Models.config_site>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Config Site</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.map_content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contact_footer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.facebook_code)
+        </th>
+      
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.map_content)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contact_footer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.facebook_code)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

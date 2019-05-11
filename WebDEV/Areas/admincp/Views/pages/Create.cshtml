@@ -1,0 +1,151 @@
+﻿@model WebDEV.Areas.admincp.Models.page
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    textarea {
+        width: 100%;
+        border: 1px solid #d1d1d1;
+        border-radius: 0px;
+    }
+
+    .form-control {
+        width: 100%;
+        border: 1px solid #d1d1d1;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+</style>
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Thêm mới</h2>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label class="col-md-12">Tên</label>
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12">Mô tả</label>
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.desciption, new { htmlAttributes = new { @id = "desciption", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.desciption, "", new { @class = "text-danger" })
+            @*<script>CKEDITOR.replace("desciption");</script>*@
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12">Nội dung</label>
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.content1, new { htmlAttributes = new { @id = "content1", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.content1, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-12">Nội dung 2</label>
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.content2, new { htmlAttributes = new { @id = "content2", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.content2, "", new { @class = "text-danger" })
+            <script>CKEDITOR.replace("content2");</script>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-12">Nội dung 3</label>
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.content3, new { htmlAttributes = new { @id = "content3", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.content3, "", new { @class = "text-danger" })
+            <script>CKEDITOR.replace("content3");</script>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-12">Nội dung 4</label>
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.content4, new { htmlAttributes = new { @id = "content4", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.content4, "", new { @class = "text-danger" })
+            <script>CKEDITOR.replace("content4");</script>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-12">Hình ảnh</label>
+        <div class="col-md-12">
+            <input type="file" name="file" id="file" />
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-md-12">Tags</label>
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.tags, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.tags, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-md-12">Title</label>
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.meta_title, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.meta_title, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12">Description</label>
+        <div class="col-md-12">
+            @Html.TextAreaFor(model => model.meta_description)
+            @Html.ValidationMessageFor(model => model.meta_description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12">Keywords</label>
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.meta_keywords, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.meta_keywords, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-12">URL:</label>
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.url, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.url, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-12">Hiển thị:</label>
+        <div class="col-md-12">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.actived)
+                @Html.ValidationMessageFor(model => model.actived, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

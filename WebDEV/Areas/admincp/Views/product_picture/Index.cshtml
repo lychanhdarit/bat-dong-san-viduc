@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebDEV.Areas.admincp.Models.product_picture>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hình ảnh của: @ViewBag.Name</h2>
+
+<p>
+    <a href="~/admincp/product_picture/create/?idProduct=@ViewBag.Id" class="btn btn-primary">+ Hình ảnh</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Hình
+        </th>
+        <th>
+            Tên hình
+        </th>
+        <th>
+            Active
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_product)
+        </td>
+        <td>
+            <img src="~/upload/images/products/@item.filename" alt="Image" height="50"  />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.active)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

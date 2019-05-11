@@ -1,0 +1,82 @@
+﻿@model IEnumerable<WebDEV.Models.SearchItem>
+@{
+
+    Layout = "~/Views/Shared/_TemplateDR.cshtml";
+}
+
+<section>
+    <div id="head_bottom">
+        <div id="head_slide">
+            <style>
+                #slide_home img {
+                    width: 100%;
+                }
+            </style>
+            <div class="box_slider">
+                <ul id="slide_home" class="block-slide">
+                    @Html.Raw(ViewBag.Slider)
+
+                </ul>
+            </div>
+            <script>
+                jQuery(function () {
+                    jQuery('#slide_home').bxSlider({ pager: false, auto: true });
+                })</script>
+        </div>
+    </div><div id="breadcrumb">
+        <div class="wrapper-center">
+            <ul>
+                <li>
+                    <i>/</i>
+                    <a href="/" title="Trang chủ">Trang chủ</a>
+                </li>
+                <li>
+                    <i>/</i>
+                    <a href="~/@ViewBag.URL" title="@ViewBag.Name">@ViewBag.Name</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>//jQuery(function(){jQuery("#breadcrumb").sticky({topSpacing:42});});</script>
+</section>
+<section id="section_middle">
+    <div id="shop_list">
+        <div class="wrapper-center">
+            <h1 class="title-lg">@ViewBag.Name</h1>
+        </div>
+        <div class="wrapper-center">
+            <div class="shop-list-grid">
+                <ul class="dpfl">
+                    @foreach (var item in Model)
+                    {
+                        <li class="o-1-1 o-mi-md-1-2 o-mi-md-1-2 o-mi-xl-1-4">
+                            <div class="shop-item-grid">
+                                <div class="box-image">
+                                    <a href="~/@item.URL">
+                                        <img src="@item.Image" alt="@item.Name">
+                                    </a>
+                                </div>
+                                <div class="box-title">
+                                    <a href="~/@item.URL"><h4 class="title-de">@item.Name</h4></a>
+                                </div>
+                            </div>
+                        </li>
+                    }
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper-centrer" style="display:none">
+            <div class="pagination">
+                <div id="pagination">
+                    <strong>1</strong>
+                    <a href="/" data-ci-pagination-page="2">2</a>
+                    <a href="/" data-ci-pagination-page="2" rel="next">&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

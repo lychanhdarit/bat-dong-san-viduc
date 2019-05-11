@@ -1,0 +1,1529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="category_banner">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idCategory" Type="int" />
+          <Property Name="idGroupBanner" Type="int" />
+          <Property Name="Note" Type="ntext" />
+        </EntityType>
+        <EntityType Name="category_product_banner">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idCategory" Type="int" />
+          <Property Name="idGroupBanner" Type="int" />
+          <Property Name="Note" Type="ntext" />
+        </EntityType>
+        <EntityType Name="config_site">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="map_content" Type="ntext" />
+          <Property Name="contact_footer" Type="ntext" />
+          <Property Name="facebook_code" Type="ntext" />
+          <Property Name="content1" Type="ntext" />
+          <Property Name="content2" Type="ntext" />
+          <Property Name="content3" Type="ntext" />
+        </EntityType>
+        <EntityType Name="group_inbox">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="250" />
+          <Property Name="active" Type="bit" />
+        </EntityType>
+        <EntityType Name="inbox">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="email" Type="nvarchar" MaxLength="550" />
+          <Property Name="phone" Type="nvarchar" MaxLength="550" />
+          <Property Name="message" Type="ntext" />
+          <Property Name="active" Type="bit" />
+          <Property Name="groupid" Type="int" />
+          <Property Name="subject" Type="nvarchar" MaxLength="550" />
+          <Property Name="address" Type="nvarchar" MaxLength="550" />
+          <Property Name="note" Type="ntext" />
+        </EntityType>
+        <EntityType Name="menu">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="url" Type="nvarchar" MaxLength="550" />
+          <Property Name="active" Type="bit" />
+          <Property Name="images" Type="nvarchar" MaxLength="550" />
+          <Property Name="sort" Type="int" />
+          <Property Name="group_menu" Type="int" />
+          <Property Name="style" Type="int" />
+          <Property Name="code" Type="nvarchar" MaxLength="550" />
+          <Property Name="note" Type="nvarchar" MaxLength="550" />
+          <Property Name="parent" Type="int" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="menu_group">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="note" Type="nvarchar" MaxLength="550" />
+          <Property Name="active" Type="nvarchar" MaxLength="50" />
+          <Property Name="images" Type="nvarchar" MaxLength="550" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="news">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="desciption" Type="ntext" />
+          <Property Name="content1" Type="ntext" />
+          <Property Name="content2" Type="ntext" />
+          <Property Name="content3" Type="ntext" />
+          <Property Name="content4" Type="ntext" />
+          <Property Name="content5" Type="ntext" />
+          <Property Name="meta_title" Type="nvarchar" MaxLength="550" />
+          <Property Name="meta_description" Type="ntext" />
+          <Property Name="meta_keywords" Type="nvarchar" MaxLength="550" />
+          <Property Name="images" Type="nvarchar" MaxLength="550" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateend" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateedit" Type="nvarchar" MaxLength="50" />
+          <Property Name="usercreate" Type="int" />
+          <Property Name="useredit" Type="int" />
+          <Property Name="actived" Type="bit" />
+          <Property Name="deleted" Type="bit" />
+          <Property Name="parent" Type="int" />
+          <Property Name="tags" Type="nvarchar" MaxLength="550" />
+          <Property Name="views" Type="int" />
+          <Property Name="rating" Type="int" />
+          <Property Name="code" Type="nvarchar" MaxLength="50" />
+          <Property Name="url" Type="nvarchar" MaxLength="550" />
+          <Property Name="price" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="int" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="news_category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="desciption" Type="ntext" />
+          <Property Name="content1" Type="ntext" />
+          <Property Name="content2" Type="ntext" />
+          <Property Name="content3" Type="ntext" />
+          <Property Name="content4" Type="ntext" />
+          <Property Name="content5" Type="ntext" />
+          <Property Name="meta_title" Type="nvarchar" MaxLength="550" />
+          <Property Name="meta_description" Type="ntext" />
+          <Property Name="meta_keywords" Type="nvarchar" MaxLength="550" />
+          <Property Name="images" Type="nvarchar" MaxLength="50" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateedit" Type="nvarchar" MaxLength="50" />
+          <Property Name="usercreate" Type="int" />
+          <Property Name="useredit" Type="int" />
+          <Property Name="actived" Type="bit" />
+          <Property Name="deleted" Type="bit" />
+          <Property Name="parent" Type="int" />
+          <Property Name="tags" Type="nvarchar" MaxLength="550" />
+          <Property Name="views" Type="int" />
+          <Property Name="rating" Type="int" />
+          <Property Name="code" Type="nvarchar" MaxLength="50" />
+          <Property Name="url" Type="nvarchar" MaxLength="550" />
+          <Property Name="price" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="int" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="order">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="code" Type="nvarchar" MaxLength="550" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="phone" Type="nvarchar" MaxLength="550" />
+          <Property Name="email" Type="nvarchar" MaxLength="550" />
+          <Property Name="address" Type="nvarchar" MaxLength="550" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+          <Property Name="status" Type="int" />
+          <Property Name="total" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="active" Type="bit" />
+          <Property Name="promo_code" Type="nvarchar" MaxLength="50" />
+          <Property Name="promo_price" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="order_detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="idOrder" Type="int" />
+          <Property Name="idProduct" Type="int" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="quantity" Type="int" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="page">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="desciption" Type="ntext" />
+          <Property Name="content1" Type="ntext" />
+          <Property Name="content2" Type="ntext" />
+          <Property Name="content3" Type="ntext" />
+          <Property Name="content4" Type="ntext" />
+          <Property Name="content5" Type="ntext" />
+          <Property Name="meta_title" Type="nvarchar" MaxLength="550" />
+          <Property Name="meta_description" Type="ntext" />
+          <Property Name="meta_keywords" Type="nvarchar" MaxLength="550" />
+          <Property Name="images" Type="nvarchar" MaxLength="50" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateend" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateedit" Type="nvarchar" MaxLength="50" />
+          <Property Name="usercreate" Type="int" />
+          <Property Name="useredit" Type="int" />
+          <Property Name="actived" Type="bit" />
+          <Property Name="deleted" Type="bit" />
+          <Property Name="parent" Type="int" />
+          <Property Name="tags" Type="nvarchar" MaxLength="550" />
+          <Property Name="views" Type="int" />
+          <Property Name="rating" Type="int" />
+          <Property Name="code" Type="nvarchar" MaxLength="50" />
+          <Property Name="url" Type="nvarchar" MaxLength="550" />
+          <Property Name="price" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="int" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="picture">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="filename" Type="nvarchar" MaxLength="550" />
+          <Property Name="group_picture" Type="int" />
+          <Property Name="active" Type="bit" />
+          <Property Name="note" Type="nvarchar" MaxLength="550" />
+        </EntityType>
+        <EntityType Name="picture_group">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="active" Type="bit" />
+          <Property Name="note" Type="nvarchar" MaxLength="550" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="desciption" Type="ntext" />
+          <Property Name="content1" Type="ntext" />
+          <Property Name="content2" Type="ntext" />
+          <Property Name="content3" Type="ntext" />
+          <Property Name="content4" Type="ntext" />
+          <Property Name="content5" Type="ntext" />
+          <Property Name="meta_title" Type="nvarchar" MaxLength="550" />
+          <Property Name="meta_description" Type="ntext" />
+          <Property Name="meta_keywords" Type="nvarchar" MaxLength="550" />
+          <Property Name="images" Type="nvarchar" MaxLength="550" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateedit" Type="nvarchar" MaxLength="50" />
+          <Property Name="usercreate" Type="int" />
+          <Property Name="dateend" Type="nvarchar" MaxLength="50" />
+          <Property Name="useredit" Type="int" />
+          <Property Name="actived" Type="bit" />
+          <Property Name="deleted" Type="bit" />
+          <Property Name="parent" Type="int" />
+          <Property Name="tags" Type="nvarchar" MaxLength="550" />
+          <Property Name="views" Type="int" />
+          <Property Name="rating" Type="int" />
+          <Property Name="code" Type="nvarchar" MaxLength="50" />
+          <Property Name="url" Type="nvarchar" MaxLength="550" />
+          <Property Name="price" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="int" />
+        </EntityType>
+        <EntityType Name="product_category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="550" />
+          <Property Name="desciption" Type="ntext" />
+          <Property Name="content1" Type="ntext" />
+          <Property Name="content2" Type="ntext" />
+          <Property Name="content3" Type="ntext" />
+          <Property Name="content4" Type="ntext" />
+          <Property Name="content5" Type="ntext" />
+          <Property Name="meta_title" Type="nvarchar" MaxLength="550" />
+          <Property Name="meta_description" Type="ntext" />
+          <Property Name="meta_keywords" Type="nvarchar" MaxLength="550" />
+          <Property Name="images" Type="nvarchar" MaxLength="50" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+          <Property Name="dateedit" Type="nvarchar" MaxLength="50" />
+          <Property Name="usercreate" Type="int" />
+          <Property Name="useredit" Type="int" />
+          <Property Name="actived" Type="bit" />
+          <Property Name="deleted" Type="bit" />
+          <Property Name="parent" Type="int" />
+          <Property Name="tags" Type="nvarchar" MaxLength="550" />
+          <Property Name="views" Type="int" />
+          <Property Name="rating" Type="int" />
+          <Property Name="code" Type="nvarchar" MaxLength="50" />
+          <Property Name="url" Type="nvarchar" MaxLength="550" />
+          <Property Name="price" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="int" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="product_picture">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_product" Type="int" />
+          <Property Name="filename" Type="nvarchar" MaxLength="550" />
+          <Property Name="title" Type="ntext" />
+          <Property Name="active" Type="bit" />
+          <Property Name="lang" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="router_config">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="url" Type="nvarchar" MaxLength="500" />
+          <Property Name="controller" Type="nvarchar" MaxLength="500" />
+          <Property Name="action" Type="nvarchar" MaxLength="500" />
+          <Property Name="itemId" Type="nvarchar" MaxLength="500" />
+          <Property Name="actived" Type="bit" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="user_group">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="250" />
+          <Property Name="active" Type="bit" />
+          <Property Name="permission" Type="ntext" />
+        </EntityType>
+        <EntityType Name="user_member">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="nvarchar" MaxLength="550" Nullable="false" />
+          <Property Name="password_user" Type="nvarchar" MaxLength="550" />
+          <Property Name="fullname" Type="nvarchar" MaxLength="550" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="address" Type="nvarchar" MaxLength="550" />
+          <Property Name="birthday" Type="nvarchar" MaxLength="50" />
+          <Property Name="active" Type="bit" />
+          <Property Name="group_user" Type="int" />
+          <Property Name="datecreate" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_category_banner_news_category">
+          <End Role="news_category" Type="Self.news_category" Multiplicity="0..1" />
+          <End Role="category_banner" Type="Self.category_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="news_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_banner">
+              <PropertyRef Name="idCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_category_banner_picture_group">
+          <End Role="picture_group" Type="Self.picture_group" Multiplicity="0..1" />
+          <End Role="category_banner" Type="Self.category_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="picture_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_banner">
+              <PropertyRef Name="idGroupBanner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_category_product_banner_picture_group">
+          <End Role="picture_group" Type="Self.picture_group" Multiplicity="0..1" />
+          <End Role="category_product_banner" Type="Self.category_product_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="picture_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_product_banner">
+              <PropertyRef Name="idGroupBanner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_category_product_banner_product_category">
+          <End Role="product_category" Type="Self.product_category" Multiplicity="0..1" />
+          <End Role="category_product_banner" Type="Self.category_product_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_product_banner">
+              <PropertyRef Name="idCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_inbox_group_inbox">
+          <End Role="group_inbox" Type="Self.group_inbox" Multiplicity="0..1" />
+          <End Role="inbox" Type="Self.inbox" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="group_inbox">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="inbox">
+              <PropertyRef Name="groupid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_menu_menu_group">
+          <End Role="menu_group" Type="Self.menu_group" Multiplicity="0..1" />
+          <End Role="menu" Type="Self.menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="menu_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="menu">
+              <PropertyRef Name="group_menu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_news_news_category">
+          <End Role="news_category" Type="Self.news_category" Multiplicity="0..1" />
+          <End Role="news" Type="Self.news" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="news_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="news">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_order_detail_order">
+          <End Role="order" Type="Self.order" Multiplicity="0..1" />
+          <End Role="order_detail" Type="Self.order_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="order">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="order_detail">
+              <PropertyRef Name="idOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_picture_picture_group">
+          <End Role="picture_group" Type="Self.picture_group" Multiplicity="0..1" />
+          <End Role="picture" Type="Self.picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="picture_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="picture">
+              <PropertyRef Name="group_picture" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_product_product_category">
+          <End Role="product_category" Type="Self.product_category" Multiplicity="0..1" />
+          <End Role="product" Type="Self.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_user_member_user_group">
+          <End Role="user_group" Type="Self.user_group" Multiplicity="0..1" />
+          <End Role="user_member" Type="Self.user_member" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="user_member">
+              <PropertyRef Name="group_user" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DataModelStoreContainer">
+          <EntitySet Name="category_banner" EntityType="Self.category_banner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="category_product_banner" EntityType="Self.category_product_banner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="config_site" EntityType="Self.config_site" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="group_inbox" EntityType="Self.group_inbox" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="inbox" EntityType="Self.inbox" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="menu" EntityType="Self.menu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="menu_group" EntityType="Self.menu_group" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="news" EntityType="Self.news" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="news_category" EntityType="Self.news_category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="order" EntityType="Self.order" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="order_detail" EntityType="Self.order_detail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="page" EntityType="Self.page" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="picture" EntityType="Self.picture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="picture_group" EntityType="Self.picture_group" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="product_category" EntityType="Self.product_category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="product_picture" EntityType="Self.product_picture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="router_config" EntityType="Self.router_config" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user_group" EntityType="Self.user_group" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user_member" EntityType="Self.user_member" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_category_banner_news_category" Association="Self.FK_category_banner_news_category">
+            <End Role="news_category" EntitySet="news_category" />
+            <End Role="category_banner" EntitySet="category_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_category_banner_picture_group" Association="Self.FK_category_banner_picture_group">
+            <End Role="picture_group" EntitySet="picture_group" />
+            <End Role="category_banner" EntitySet="category_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_category_product_banner_picture_group" Association="Self.FK_category_product_banner_picture_group">
+            <End Role="picture_group" EntitySet="picture_group" />
+            <End Role="category_product_banner" EntitySet="category_product_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_category_product_banner_product_category" Association="Self.FK_category_product_banner_product_category">
+            <End Role="product_category" EntitySet="product_category" />
+            <End Role="category_product_banner" EntitySet="category_product_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_inbox_group_inbox" Association="Self.FK_inbox_group_inbox">
+            <End Role="group_inbox" EntitySet="group_inbox" />
+            <End Role="inbox" EntitySet="inbox" />
+          </AssociationSet>
+          <AssociationSet Name="FK_menu_menu_group" Association="Self.FK_menu_menu_group">
+            <End Role="menu_group" EntitySet="menu_group" />
+            <End Role="menu" EntitySet="menu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_news_news_category" Association="Self.FK_news_news_category">
+            <End Role="news_category" EntitySet="news_category" />
+            <End Role="news" EntitySet="news" />
+          </AssociationSet>
+          <AssociationSet Name="FK_order_detail_order" Association="Self.FK_order_detail_order">
+            <End Role="order" EntitySet="order" />
+            <End Role="order_detail" EntitySet="order_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_picture_picture_group" Association="Self.FK_picture_picture_group">
+            <End Role="picture_group" EntitySet="picture_group" />
+            <End Role="picture" EntitySet="picture" />
+          </AssociationSet>
+          <AssociationSet Name="FK_product_product_category" Association="Self.FK_product_product_category">
+            <End Role="product_category" EntitySet="product_category" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_user_member_user_group" Association="Self.FK_user_member_user_group">
+            <End Role="user_group" EntitySet="user_group" />
+            <End Role="user_member" EntitySet="user_member" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="news">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="desciption" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_title" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="meta_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_keywords" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="images" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateend" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateedit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="usercreate" Type="Int32" />
+          <Property Name="useredit" Type="Int32" />
+          <Property Name="actived" Type="Boolean" />
+          <Property Name="deleted" Type="Boolean" />
+          <Property Name="parent" Type="Int32" />
+          <Property Name="tags" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="views" Type="Int32" />
+          <Property Name="rating" Type="Int32" />
+          <Property Name="code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="url" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantity" Type="Int32" />
+          <NavigationProperty Name="news_category" Relationship="Self.FK_news_news_category" FromRole="news" ToRole="news_category" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="news_category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="desciption" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_title" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="meta_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_keywords" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="images" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateedit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="usercreate" Type="Int32" />
+          <Property Name="useredit" Type="Int32" />
+          <Property Name="actived" Type="Boolean" />
+          <Property Name="deleted" Type="Boolean" />
+          <Property Name="parent" Type="Int32" />
+          <Property Name="tags" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="views" Type="Int32" />
+          <Property Name="rating" Type="Int32" />
+          <Property Name="code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="url" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantity" Type="Int32" />
+          <NavigationProperty Name="news" Relationship="Self.FK_news_news_category" FromRole="news_category" ToRole="news" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="category_banner" Relationship="DataModel.FK_category_banner_news_category" FromRole="news_category" ToRole="category_banner" />
+        </EntityType>
+        <EntityType Name="picture">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="filename" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="group_picture" Type="Int32" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="note" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="picture_group" Relationship="Self.FK_picture_picture_group" FromRole="picture" ToRole="picture_group" />
+        </EntityType>
+        <EntityType Name="picture_group">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="note" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="pictures" Relationship="Self.FK_picture_picture_group" FromRole="picture_group" ToRole="picture" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="category_banner" Relationship="DataModel.FK_category_banner_picture_group" FromRole="picture_group" ToRole="category_banner" />
+          <NavigationProperty Name="category_product_banner" Relationship="DataModel.FK_category_product_banner_picture_group" FromRole="picture_group" ToRole="category_product_banner" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="desciption" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_title" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="meta_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_keywords" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="images" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateedit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="usercreate" Type="Int32" />
+          <Property Name="dateend" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="useredit" Type="Int32" />
+          <Property Name="actived" Type="Boolean" />
+          <Property Name="deleted" Type="Boolean" />
+          <Property Name="parent" Type="Int32" />
+          <Property Name="tags" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="views" Type="Int32" />
+          <Property Name="rating" Type="Int32" />
+          <Property Name="code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="url" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantity" Type="Int32" />
+          <NavigationProperty Name="product_category" Relationship="Self.FK_product_product_category" FromRole="product" ToRole="product_category" />
+        </EntityType>
+        <EntityType Name="product_category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="desciption" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_title" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="meta_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_keywords" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="images" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateedit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="usercreate" Type="Int32" />
+          <Property Name="useredit" Type="Int32" />
+          <Property Name="actived" Type="Boolean" />
+          <Property Name="deleted" Type="Boolean" />
+          <Property Name="parent" Type="Int32" />
+          <Property Name="tags" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="views" Type="Int32" />
+          <Property Name="rating" Type="Int32" />
+          <Property Name="code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="url" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantity" Type="Int32" />
+          <NavigationProperty Name="products" Relationship="Self.FK_product_product_category" FromRole="product_category" ToRole="product" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="category_product_banner" Relationship="DataModel.FK_category_product_banner_product_category" FromRole="product_category" ToRole="category_product_banner" />
+        </EntityType>
+        <EntityType Name="product_picture">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_product" Type="Int32" />
+          <Property Name="filename" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="router_config">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="url" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="controller" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="action" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="itemId" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="actived" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="user_group">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="permission" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="user_member" Relationship="Self.FK_user_member_user_group" FromRole="user_group" ToRole="user_member" />
+        </EntityType>
+        <EntityType Name="user_member">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="550" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password_user" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="fullname" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="address" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="birthday" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="group_user" Type="Int32" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="user_group" Relationship="Self.FK_user_member_user_group" FromRole="user_member" ToRole="user_group" />
+        </EntityType>
+        <Association Name="FK_news_news_category">
+          <End Role="news_category" Type="Self.news_category" Multiplicity="0..1" />
+          <End Role="news" Type="Self.news" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="news_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="news">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_picture_picture_group">
+          <End Role="picture_group" Type="Self.picture_group" Multiplicity="0..1" />
+          <End Role="picture" Type="Self.picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="picture_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="picture">
+              <PropertyRef Name="group_picture" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_product_product_category">
+          <End Role="product_category" Type="Self.product_category" Multiplicity="0..1" />
+          <End Role="product" Type="Self.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="parent" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_user_member_user_group">
+          <End Role="user_group" Type="Self.user_group" Multiplicity="0..1" />
+          <End Role="user_member" Type="Self.user_member" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="user_member">
+              <PropertyRef Name="group_user" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DataEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="news" EntityType="Self.news" />
+          <EntitySet Name="news_category" EntityType="Self.news_category" />
+          <EntitySet Name="pictures" EntityType="Self.picture" />
+          <EntitySet Name="picture_group" EntityType="Self.picture_group" />
+          <EntitySet Name="products" EntityType="Self.product" />
+          <EntitySet Name="product_category" EntityType="Self.product_category" />
+          <EntitySet Name="product_picture" EntityType="Self.product_picture" />
+          <EntitySet Name="router_config" EntityType="Self.router_config" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="user_group" EntityType="Self.user_group" />
+          <EntitySet Name="user_member" EntityType="Self.user_member" />
+          <AssociationSet Name="FK_news_news_category" Association="Self.FK_news_news_category">
+            <End Role="news_category" EntitySet="news_category" />
+            <End Role="news" EntitySet="news" />
+          </AssociationSet>
+          <AssociationSet Name="FK_picture_picture_group" Association="Self.FK_picture_picture_group">
+            <End Role="picture_group" EntitySet="picture_group" />
+            <End Role="picture" EntitySet="pictures" />
+          </AssociationSet>
+          <AssociationSet Name="FK_product_product_category" Association="Self.FK_product_product_category">
+            <End Role="product_category" EntitySet="product_category" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_user_member_user_group" Association="Self.FK_user_member_user_group">
+            <End Role="user_group" EntitySet="user_group" />
+            <End Role="user_member" EntitySet="user_member" />
+          </AssociationSet>
+          <EntitySet Name="pages" EntityType="DataModel.page" />
+          <EntitySet Name="menus" EntityType="DataModel.menu" />
+          <EntitySet Name="menu_group" EntityType="DataModel.menu_group" />
+          <AssociationSet Name="FK_menu_menu_group" Association="DataModel.FK_menu_menu_group">
+            <End Role="menu_group" EntitySet="menu_group" />
+            <End Role="menu" EntitySet="menus" />
+          </AssociationSet>
+          <EntitySet Name="group_inbox" EntityType="DataModel.group_inbox" />
+          <EntitySet Name="inboxes" EntityType="DataModel.inbox" />
+          <EntitySet Name="orders" EntityType="DataModel.order" />
+          <EntitySet Name="order_detail" EntityType="DataModel.order_detail" />
+          <AssociationSet Name="FK_inbox_group_inbox" Association="DataModel.FK_inbox_group_inbox">
+            <End Role="group_inbox" EntitySet="group_inbox" />
+            <End Role="inbox" EntitySet="inboxes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_order_detail_order" Association="DataModel.FK_order_detail_order">
+            <End Role="order" EntitySet="orders" />
+            <End Role="order_detail" EntitySet="order_detail" />
+          </AssociationSet>
+          <EntitySet Name="category_banner" EntityType="DataModel.category_banner" />
+          <EntitySet Name="category_product_banner" EntityType="DataModel.category_product_banner" />
+          <AssociationSet Name="FK_category_banner_news_category" Association="DataModel.FK_category_banner_news_category">
+            <End Role="news_category" EntitySet="news_category" />
+            <End Role="category_banner" EntitySet="category_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_category_banner_picture_group" Association="DataModel.FK_category_banner_picture_group">
+            <End Role="picture_group" EntitySet="picture_group" />
+            <End Role="category_banner" EntitySet="category_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_category_product_banner_picture_group" Association="DataModel.FK_category_product_banner_picture_group">
+            <End Role="picture_group" EntitySet="picture_group" />
+            <End Role="category_product_banner" EntitySet="category_product_banner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_category_product_banner_product_category" Association="DataModel.FK_category_product_banner_product_category">
+            <End Role="product_category" EntitySet="product_category" />
+            <End Role="category_product_banner" EntitySet="category_product_banner" />
+          </AssociationSet>
+          <EntitySet Name="config_site" EntityType="DataModel.config_site" />
+        </EntityContainer>
+        <EntityType Name="page">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="desciption" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_title" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="meta_description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="meta_keywords" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="images" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateend" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dateedit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="usercreate" Type="Int32" />
+          <Property Name="useredit" Type="Int32" />
+          <Property Name="actived" Type="Boolean" />
+          <Property Name="deleted" Type="Boolean" />
+          <Property Name="parent" Type="Int32" />
+          <Property Name="tags" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="views" Type="Int32" />
+          <Property Name="rating" Type="Int32" />
+          <Property Name="code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="url" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantity" Type="Int32" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="menu">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="url" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="images" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="sort" Type="Int32" />
+          <Property Name="group_menu" Type="Int32" />
+          <Property Name="style" Type="Int32" />
+          <Property Name="code" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="note" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="menu_group" Relationship="DataModel.FK_menu_menu_group" FromRole="menu" ToRole="menu_group" />
+          <Property Name="parent" Type="Int32" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="menu_group">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="note" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="images" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="menus" Relationship="DataModel.FK_menu_menu_group" FromRole="menu_group" ToRole="menu" />
+          <Property Name="lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_menu_menu_group">
+          <End Type="DataModel.menu_group" Role="menu_group" Multiplicity="0..1" />
+          <End Type="DataModel.menu" Role="menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="menu_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="menu">
+              <PropertyRef Name="group_menu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="group_inbox">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <NavigationProperty Name="inboxes" Relationship="DataModel.FK_inbox_group_inbox" FromRole="group_inbox" ToRole="inbox" />
+        </EntityType>
+        <EntityType Name="inbox">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="groupid" Type="Int32" />
+          <Property Name="subject" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="address" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="group_inbox" Relationship="DataModel.FK_inbox_group_inbox" FromRole="inbox" ToRole="group_inbox" />
+        </EntityType>
+        <EntityType Name="order">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="code" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="address" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="datecreate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="status" Type="Int32" />
+          <Property Name="total" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="active" Type="Boolean" />
+          <Property Name="promo_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="promo_price" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="order_detail" Relationship="DataModel.FK_order_detail_order" FromRole="order" ToRole="order_detail" />
+        </EntityType>
+        <EntityType Name="order_detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="idOrder" Type="Int32" />
+          <Property Name="idProduct" Type="Int32" />
+          <Property Name="name" Type="String" MaxLength="550" FixedLength="false" Unicode="true" />
+          <Property Name="quantity" Type="Int32" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="order" Relationship="DataModel.FK_order_detail_order" FromRole="order_detail" ToRole="order" />
+        </EntityType>
+        <Association Name="FK_inbox_group_inbox">
+          <End Type="DataModel.group_inbox" Role="group_inbox" Multiplicity="0..1" />
+          <End Type="DataModel.inbox" Role="inbox" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="group_inbox">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="inbox">
+              <PropertyRef Name="groupid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_order_detail_order">
+          <End Type="DataModel.order" Role="order" Multiplicity="0..1" />
+          <End Type="DataModel.order_detail" Role="order_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="order">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="order_detail">
+              <PropertyRef Name="idOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="category_banner">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idCategory" Type="Int32" />
+          <Property Name="idGroupBanner" Type="Int32" />
+          <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="news_category" Relationship="DataModel.FK_category_banner_news_category" FromRole="category_banner" ToRole="news_category" />
+          <NavigationProperty Name="picture_group" Relationship="DataModel.FK_category_banner_picture_group" FromRole="category_banner" ToRole="picture_group" />
+        </EntityType>
+        <EntityType Name="category_product_banner">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idCategory" Type="Int32" />
+          <Property Name="idGroupBanner" Type="Int32" />
+          <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="picture_group" Relationship="DataModel.FK_category_product_banner_picture_group" FromRole="category_product_banner" ToRole="picture_group" />
+          <NavigationProperty Name="product_category" Relationship="DataModel.FK_category_product_banner_product_category" FromRole="category_product_banner" ToRole="product_category" />
+        </EntityType>
+        <Association Name="FK_category_banner_news_category">
+          <End Type="DataModel.news_category" Role="news_category" Multiplicity="0..1" />
+          <End Type="DataModel.category_banner" Role="category_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="news_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_banner">
+              <PropertyRef Name="idCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_category_banner_picture_group">
+          <End Type="DataModel.picture_group" Role="picture_group" Multiplicity="0..1" />
+          <End Type="DataModel.category_banner" Role="category_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="picture_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_banner">
+              <PropertyRef Name="idGroupBanner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_category_product_banner_picture_group">
+          <End Type="DataModel.picture_group" Role="picture_group" Multiplicity="0..1" />
+          <End Type="DataModel.category_product_banner" Role="category_product_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="picture_group">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_product_banner">
+              <PropertyRef Name="idGroupBanner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_category_product_banner_product_category">
+          <End Type="DataModel.product_category" Role="product_category" Multiplicity="0..1" />
+          <End Type="DataModel.category_product_banner" Role="category_product_banner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product_category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="category_product_banner">
+              <PropertyRef Name="idCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="config_site">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="map_content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="contact_footer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="facebook_code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="content3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities1">
+          <EntitySetMapping Name="news">
+            <EntityTypeMapping TypeName="DataModel.news">
+              <MappingFragment StoreEntitySet="news">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="desciption" ColumnName="desciption" />
+                <ScalarProperty Name="content1" ColumnName="content1" />
+                <ScalarProperty Name="content2" ColumnName="content2" />
+                <ScalarProperty Name="content3" ColumnName="content3" />
+                <ScalarProperty Name="content4" ColumnName="content4" />
+                <ScalarProperty Name="content5" ColumnName="content5" />
+                <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+                <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+                <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+                <ScalarProperty Name="dateend" ColumnName="dateend" />
+                <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+                <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+                <ScalarProperty Name="useredit" ColumnName="useredit" />
+                <ScalarProperty Name="actived" ColumnName="actived" />
+                <ScalarProperty Name="deleted" ColumnName="deleted" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="tags" ColumnName="tags" />
+                <ScalarProperty Name="views" ColumnName="views" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="news_category">
+            <EntityTypeMapping TypeName="DataModel.news_category">
+              <MappingFragment StoreEntitySet="news_category">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="desciption" ColumnName="desciption" />
+                <ScalarProperty Name="content1" ColumnName="content1" />
+                <ScalarProperty Name="content2" ColumnName="content2" />
+                <ScalarProperty Name="content3" ColumnName="content3" />
+                <ScalarProperty Name="content4" ColumnName="content4" />
+                <ScalarProperty Name="content5" ColumnName="content5" />
+                <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+                <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+                <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+                <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+                <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+                <ScalarProperty Name="useredit" ColumnName="useredit" />
+                <ScalarProperty Name="actived" ColumnName="actived" />
+                <ScalarProperty Name="deleted" ColumnName="deleted" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="tags" ColumnName="tags" />
+                <ScalarProperty Name="views" ColumnName="views" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pictures">
+            <EntityTypeMapping TypeName="DataModel.picture">
+              <MappingFragment StoreEntitySet="picture">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="group_picture" ColumnName="group_picture" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="note" ColumnName="note" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="picture_group">
+            <EntityTypeMapping TypeName="DataModel.picture_group">
+              <MappingFragment StoreEntitySet="picture_group">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="note" ColumnName="note" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="DataModel.product">
+              <MappingFragment StoreEntitySet="product">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="desciption" ColumnName="desciption" />
+                <ScalarProperty Name="content1" ColumnName="content1" />
+                <ScalarProperty Name="content2" ColumnName="content2" />
+                <ScalarProperty Name="content3" ColumnName="content3" />
+                <ScalarProperty Name="content4" ColumnName="content4" />
+                <ScalarProperty Name="content5" ColumnName="content5" />
+                <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+                <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+                <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+                <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+                <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+                <ScalarProperty Name="dateend" ColumnName="dateend" />
+                <ScalarProperty Name="useredit" ColumnName="useredit" />
+                <ScalarProperty Name="actived" ColumnName="actived" />
+                <ScalarProperty Name="deleted" ColumnName="deleted" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="tags" ColumnName="tags" />
+                <ScalarProperty Name="views" ColumnName="views" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="product_category">
+            <EntityTypeMapping TypeName="DataModel.product_category">
+              <MappingFragment StoreEntitySet="product_category">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="desciption" ColumnName="desciption" />
+                <ScalarProperty Name="content1" ColumnName="content1" />
+                <ScalarProperty Name="content2" ColumnName="content2" />
+                <ScalarProperty Name="content3" ColumnName="content3" />
+                <ScalarProperty Name="content4" ColumnName="content4" />
+                <ScalarProperty Name="content5" ColumnName="content5" />
+                <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+                <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+                <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+                <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+                <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+                <ScalarProperty Name="useredit" ColumnName="useredit" />
+                <ScalarProperty Name="actived" ColumnName="actived" />
+                <ScalarProperty Name="deleted" ColumnName="deleted" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="tags" ColumnName="tags" />
+                <ScalarProperty Name="views" ColumnName="views" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="product_picture">
+            <EntityTypeMapping TypeName="DataModel.product_picture">
+              <MappingFragment StoreEntitySet="product_picture">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_product" ColumnName="id_product" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="active" ColumnName="active" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="router_config">
+            <EntityTypeMapping TypeName="DataModel.router_config">
+              <MappingFragment StoreEntitySet="router_config">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="controller" ColumnName="controller" />
+                <ScalarProperty Name="action" ColumnName="action" />
+                <ScalarProperty Name="itemId" ColumnName="itemId" />
+                <ScalarProperty Name="actived" ColumnName="actived" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="DataModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user_group">
+            <EntityTypeMapping TypeName="DataModel.user_group">
+              <MappingFragment StoreEntitySet="user_group">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="permission" ColumnName="permission" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user_member">
+            <EntityTypeMapping TypeName="DataModel.user_member">
+              <MappingFragment StoreEntitySet="user_member">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password_user" ColumnName="password_user" />
+                <ScalarProperty Name="fullname" ColumnName="fullname" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="birthday" ColumnName="birthday" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="group_user" ColumnName="group_user" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pages">
+            <EntityTypeMapping TypeName="DataModel.page">
+              <MappingFragment StoreEntitySet="page">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="views" ColumnName="views" />
+                <ScalarProperty Name="tags" ColumnName="tags" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="deleted" ColumnName="deleted" />
+                <ScalarProperty Name="actived" ColumnName="actived" />
+                <ScalarProperty Name="useredit" ColumnName="useredit" />
+                <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+                <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+                <ScalarProperty Name="dateend" ColumnName="dateend" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+                <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+                <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+                <ScalarProperty Name="content5" ColumnName="content5" />
+                <ScalarProperty Name="content4" ColumnName="content4" />
+                <ScalarProperty Name="content3" ColumnName="content3" />
+                <ScalarProperty Name="content2" ColumnName="content2" />
+                <ScalarProperty Name="content1" ColumnName="content1" />
+                <ScalarProperty Name="desciption" ColumnName="desciption" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="menus">
+            <EntityTypeMapping TypeName="DataModel.menu">
+              <MappingFragment StoreEntitySet="menu">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="parent" ColumnName="parent" />
+                <ScalarProperty Name="note" ColumnName="note" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="style" ColumnName="style" />
+                <ScalarProperty Name="group_menu" ColumnName="group_menu" />
+                <ScalarProperty Name="sort" ColumnName="sort" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="menu_group">
+            <EntityTypeMapping TypeName="DataModel.menu_group">
+              <MappingFragment StoreEntitySet="menu_group">
+                <ScalarProperty Name="lang" ColumnName="lang" />
+                <ScalarProperty Name="images" ColumnName="images" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="note" ColumnName="note" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="group_inbox">
+            <EntityTypeMapping TypeName="DataModel.group_inbox">
+              <MappingFragment StoreEntitySet="group_inbox">
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="inboxes">
+            <EntityTypeMapping TypeName="DataModel.inbox">
+              <MappingFragment StoreEntitySet="inbox">
+                <ScalarProperty Name="note" ColumnName="note" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="subject" ColumnName="subject" />
+                <ScalarProperty Name="groupid" ColumnName="groupid" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="message" ColumnName="message" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="orders">
+            <EntityTypeMapping TypeName="DataModel.order">
+              <MappingFragment StoreEntitySet="order">
+                <ScalarProperty Name="promo_price" ColumnName="promo_price" />
+                <ScalarProperty Name="promo_code" ColumnName="promo_code" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="total" ColumnName="total" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="order_detail">
+            <EntityTypeMapping TypeName="DataModel.order_detail">
+              <MappingFragment StoreEntitySet="order_detail">
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="idProduct" ColumnName="idProduct" />
+                <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="category_banner">
+            <EntityTypeMapping TypeName="DataModel.category_banner">
+              <MappingFragment StoreEntitySet="category_banner">
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="idGroupBanner" ColumnName="idGroupBanner" />
+                <ScalarProperty Name="idCategory" ColumnName="idCategory" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="category_product_banner">
+            <EntityTypeMapping TypeName="DataModel.category_product_banner">
+              <MappingFragment StoreEntitySet="category_product_banner">
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="idGroupBanner" ColumnName="idGroupBanner" />
+                <ScalarProperty Name="idCategory" ColumnName="idCategory" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="config_site">
+            <EntityTypeMapping TypeName="DataModel.config_site">
+              <MappingFragment StoreEntitySet="config_site">
+                <ScalarProperty Name="content3" ColumnName="content3" />
+                <ScalarProperty Name="content2" ColumnName="content2" />
+                <ScalarProperty Name="content1" ColumnName="content1" />
+                <ScalarProperty Name="facebook_code" ColumnName="facebook_code" />
+                <ScalarProperty Name="contact_footer" ColumnName="contact_footer" />
+                <ScalarProperty Name="map_content" ColumnName="map_content" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title </title>
+    <meta name="keywords" content="@ViewBag.Keywords">
+    <meta name="description" content="@ViewBag.Description">
+    <meta property="og:url" itemprop="url" content="@ViewBag.URLcanonical" />
+    <meta property="og:title" content="@ViewBag.Title" />
+    <meta property="og:description" content="@ViewBag.Description" />
+    <meta property="og:image" content="@ViewBag.Picture" />
+    <link rel="canonical" href="@ViewBag.URLcanonical" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="WebDR">
+    <meta name="twitter:title" content="@ViewBag.Title">
+    <meta name="twitter:description" content="@ViewBag.Description">
+    <meta name="twitter:creator" content="DR">
+    <meta name="twitter:image:src" content="@ViewBag.Picture">
+    @Html.Raw(ViewBag.OGtype)
+    <link rel="shortcut icon" href="~/favicon.gif" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <script src="~/themes/assets/library/jquery.min.js"></script>
+    <script type="text/javascript" src="~/themes/assets/library/toastr.min.js"></script>
+    <link rel="stylesheet" href="~/themes/assets/library/toastr.min.css">
+
+    <link href="~/themes/style2.css" rel="stylesheet" />
+    <link href="~/themes/styles.css" rel="stylesheet" />
+
+    @RenderSection("head", required: false)
+</head>
+<body class="sidebar-collapse menu-on-left">
+    <app-root _nghost-sc0="" ng-version="6.1.4">
+        <div _ngcontent-sc0="" id="outlet" style="visibility:visible;" class="outlet-content home-bg" classname="outlet-content home-bg">
+            <app-navbar _ngcontent-sc0="" _nghost-sc2="">
+                <div _ngcontent-sc2="" class="navbar-header">
+                    <nav _ngcontent-sc2="" class="navbar navbar-expand-lg bg-primary bg-white mobile-transparent transparent" color-on-scroll="500">
+                        <div _ngcontent-sc2="" class="container">
+                            <div _ngcontent-sc2="" class="navbar-translate">
+                                <button _ngcontent-sc2="" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarToggler" data-toggle="collapse" type="button"><span _ngcontent-sc2="" class="navbar-toggler-bar bar1"></span><span _ngcontent-sc2="" class="navbar-toggler-bar bar2"></span><span _ngcontent-sc2="" class="navbar-toggler-bar bar3"></span></button><a _ngcontent-sc2="" class="navbar-brand"><div _ngcontent-sc2="" class="navbar-logo"></div></a><div _ngcontent-sc2="" class="user-experience xs d-inline-flex d-sm-none"><img _ngcontent-sc2="" class="boxchat" hidden="" src="~/themes/assets/images/boxchat.svg"><div _ngcontent-sc2="" class="position-relative"><img _ngcontent-sc2="" class="person" src="~/themes/assets/images/person.svg"><div _ngcontent-sc2="" class="message-notification" hidden=""><label _ngcontent-sc2="">3</label></div></div><img _ngcontent-sc2="" class="person" src="~/themes/assets/images/user.png" hidden=""></div>
+                            </div>
+                            <div _ngcontent-sc2="" class="collapse navbar-collapse" data-color="orange" data-nav-image="~/themes/assets/img/blurred-image-1.jpg" style="z-index:10000;max-width:none;">
+                                <div _ngcontent-sc2="" class="d-block d-sm-none pt-2">
+                                    <div _ngcontent-sc2="" class="navbar-logo-mobile position-relative">
+                                        <img _ngcontent-sc2="" src="~/themes/assets/images/hosiana-white-logo.svg">
+                                    </div>
+                                    <button _ngcontent-sc2="" aria-label="Close" class="close pr-3" data-dismiss="modal" type="button">
+                                        <svg _ngcontent-sc2="" height="22" viewBox="0 0 30 30" width="22" xmlns="http://www.w3.org/2000/svg">
+                                            <path _ngcontent-sc2="" d="M1.257 28.745a.876.876 0 0 0 1.238 0L15 16.222l12.505 12.52a.875.875 0 1 0 1.239-1.236L16.251 15 28.743 2.494a.875.875 0 1 0-1.238-1.237L15 13.777 2.494 1.258a.875.875 0 1 0-1.238 1.237L13.747 15 1.256 27.507a.875.875 0 0 0 0 1.238z" fill="#555" fill-rule="nonzero"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div _ngcontent-sc2="" class="d-block d-sm-none pt-2">
+                                    <div _ngcontent-sc2="" class="divider"></div>
+                                </div>
+                                <ul _ngcontent-sc2="" class="navbar-nav mt-4 mt-md-0">
+                                    <li _ngcontent-sc2="" class="nav-item">
+                                        <a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Tin mới</p></a>
+                                    </li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Mua</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Thuê</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Trao đổi</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">BĐS Thương mại</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Dự án</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Tìm đại lý</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Dịch vụ nhà cửa</p></a></li>
+                                    <li _ngcontent-sc2="" class="nav-item"><a _ngcontent-sc2="" class="nav-link white-color"><p _ngcontent-sc2="">Tin tức</p></a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </app-navbar>
+            <div _ngcontent-sc0="" class="outlet-display">
+                @RenderBody()
+            </div>
+            <app-footer _ngcontent-sc0="" _nghost-sc3="">
+                <div _ngcontent-sc3="" class="footer-accordion" hidden="">
+                    <ngb-accordion _ngcontent-sc3="" activeids="static-1" class=" xs d-block d-sm-none accordion" role="tablist" aria-multiselectable="false"><div class="card"><div role="tab" id="static-2-header" class="card-header " classname="card-header "><h5 class="mb-0"><button class="btn btn-link collapsed" aria-expanded="false" aria-controls="static-2"> All Contact</button></h5></div></div></ngb-accordion>
+                </div>
+                <footer _ngcontent-sc3="" class="section footer-classic context-dark bg-image" style="background: #7a7a7a;">
+                    <div _ngcontent-sc3="" class="container">
+                        <div _ngcontent-sc3="" class="row pb-3">
+                            <div _ngcontent-sc3="" class="col-md-6 col-12">
+                                <div _ngcontent-sc3="" class="row pb-3 pb-md-0">
+                                    <div _ngcontent-sc3="" class="col-md-4 col-6 padding-abs">
+                                        <label _ngcontent-sc3="" class="op-label">Về chúng tôi</label>
+                                        <ul _ngcontent-sc3="" class="nav-list">
+                                            <li _ngcontent-sc3=""><a _ngcontent-sc3="" href="ve-hosiana.html">Thông tin </a></li>
+                                            <li _ngcontent-sc3=""><a _ngcontent-sc3="" href="lien-he.html">Liên hệ chúng tôi</a></li>
+                                            <li _ngcontent-sc3=""><a _ngcontent-sc3="" href="co-hoi-nghe-nghiep.html">Cơ hội nghề nghiệp</a></li>
+                                            <li _ngcontent-sc3=""><a _ngcontent-sc3="" href="cau-hoi-thuong-gap.html">Câu hỏi thường gặp</a></li>
+                                        </ul>
+                                    </div>
+                                    <div _ngcontent-sc3="" class="col-md-4 col-6"><label _ngcontent-sc3="" class="op-label">Dịch vụ</label><ul _ngcontent-sc3="" class="nav-list"><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="ve-dai-ly.html">Đại lý BĐS</a></li><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="ve-moi-gioi-tu-do.html">Môi giới cá nhân</a></li><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="ve-dich-vu-nha-cua.html">Dịch vụ nhà cửa</a></li><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="ve-nha-phat-trien-du-an.html">Nhà phát triển dự án</a></li></ul></div><div _ngcontent-sc3="" class="col-md-4 col-6"><ul _ngcontent-sc3="" class="nav-list pt-md-4 pt-0"><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a></li><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="quy-che-hoat-dong.html">Quy chế hoạt động</a></li><li _ngcontent-sc3=""><a _ngcontent-sc3="" href="co-che-giai-quyet-tranh-chap.html">Cơ chế giải quyết tranh chấp</a></li></ul></div>
+                                </div>
+                                <div _ngcontent-sc3="" class="dropdown-divider d-block d-sm-none"></div>
+                            </div>
+                            <div _ngcontent-sc3="" class="col-md-6 col-12">
+                                <div _ngcontent-sc3="" class="row">
+                                    <div _ngcontent-sc3="" class="col-md-5 col-12 top-contact">
+                                        <div _ngcontent-sc3="">
+                                            <label _ngcontent-sc3="">Theo dõi chúng tôi:</label>
+                                            <ul _ngcontent-sc3="" class="nav-list-2">
+                                                <a _ngcontent-sc3="" href="https://www.facebook.com/hosiana.vn" target="_blank">
+                                                    <button _ngcontent-sc3="" class="btn btn-primary btn-just-icon btn-rounded" type="button">
+                                                        <i _ngcontent-sc3="" class="fab fa-facebook-f"></i>
+                                                    </button>
+                                                </a>
+                                                <a _ngcontent-sc3="" href="https://www.youtube.com/channel/UCeJ3NQjtvl7ir3AatQEOGwg" target="_blank"><button _ngcontent-sc3="" class="btn btn-primary btn-just-icon btn-rounded youtube" type="button"><i _ngcontent-sc3="" class="fab fa-youtube"></i></button></a>
+                                                <a _ngcontent-sc3="" href="https://www.instagram.com/hosiana.vn/" target="_blank"><button _ngcontent-sc3="" class="btn btn-primary btn-just-icon btn-rounded" type="button"><i _ngcontent-sc3="" class="fab fa-instagram"></i></button></a>
+                                                <a _ngcontent-sc3="" href="https://www.linkedin.com/company/hosiana-vietnam/" target="_blank"><button _ngcontent-sc3="" class="btn btn-primary btn-just-icon btn-rounded btn-twitter" type="button"><i _ngcontent-sc3="" class="fab fa-twitter"></i></button></a>
+                                                <a _ngcontent-sc3="" href="https://zalo.me/3865228163693332965" target="_blank"><button _ngcontent-sc3="" class="btn btn-primary btn-just-icon btn-rounded position-relative" type="button"><svg _ngcontent-sc3="" height="30" style="position: absolute; top: 0; left: 0" viewBox="0 0 35 35" width="30" xmlns="http://www.w3.org/2000/svg"><g _ngcontent-sc3="" fill="none" fill-rule="evenodd"><circle _ngcontent-sc3="" cx="17.5" cy="17.5" fill="#E4375C" r="17.5"></circle><text _ngcontent-sc3="" fill="#FFF" font-family="Roboto-Black, Roboto" font-size="12" font-weight="700" letter-spacing=".047"><tspan _ngcontent-sc3="" x="7" y="21">Zalo</tspan></text></g></svg></button></a>
+                                            </ul>
+                                        </div>
+                                        <div _ngcontent-sc3="" class="pt-2">
+                                            <div _ngcontent-sc3="" class="location py-1">
+                                                <span _ngcontent-sc3="">
+                                                    <img _ngcontent-sc3="" class="location-image pr-2" src="~/themes/assets/images/phone.svg" style="width: 25px; height: 25px"><a _ngcontent-sc3="" href="tel:02836368269">028.3636.8269</a><br _ngcontent-sc3=""><a _ngcontent-sc3="" href="tel:0888159798" style="margin-left: 35px;">08.88.159.798</a>
+                                                </span>
+                                            </div><div _ngcontent-sc3="" class="location email py-1"><span _ngcontent-sc3=""><img _ngcontent-sc3="" class="location-image pr-2" src="~/themes/assets/images/email.svg" style="width: 25px; height: 25px"></span><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="88ebe7e6fce9ebfcc8e0e7fbe1e9e6e9a6fee6">[email&#160;protected]</a> </div>
+                                        </div>
+                                    </div>
+                                    <div _ngcontent-sc3="" class="col-md-7 col-12 hosiana-contact">
+                                        <img _ngcontent-sc3="" alt="" src="~/themes/assets/images/hosiana-footer.svg">
+                                        <div _ngcontent-sc3="" style="margin-top: -35px;">
+                                            <ul _ngcontent-sc3="" class="list-address">
+                                                <li _ngcontent-sc3="">
+                                                    <p _ngcontent-sc3="">318 Nguyễn Xiển, Khu phố Gò Công, Long Thạnh Mỹ, Quận 9, TP Hồ Chí Minh</p>
+                                                </li>
+                                                <li _ngcontent-sc3=""><p _ngcontent-sc3="">SH2-01, Sari Town, Sala Đại Minh Quang, Thủ Thiêm, Quận 2, TP. Hồ Chí Minh</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div _ngcontent-sc3="" class="col-12"></div>
+                        </div>
+                        <div _ngcontent-sc3="" class="dropdown-divider d-none d-sm-block" style="margin-left: -15px; margin-right: 75px;"></div>
+                        <div _ngcontent-sc3="" class="dropdown-divider d-block d-sm-none"></div>
+                    </div>
+                    <div _ngcontent-sc3="" class="container pl-0">
+                        <div _ngcontent-sc3="" class="row pt-3">
+                            <div _ngcontent-sc3="" class="col-md-6 my-auto">
+                                <p _ngcontent-sc3="" class="pr-md-0 pr-2">Giấy chứng nhận Đăng Ký Doanh Nghiệp số 0314218864.</p>
+                                <p _ngcontent-sc3="">Ngày cấp 25/01/2017. Cơ quan cấp: Sở kế hoạch và Đầu tư Thành phố Hồ Chí Minh</p>
+                            </div>
+                            <div _ngcontent-sc3="" class="col-md-6 register-bct">
+                                <a _ngcontent-sc3="" target="_blank" href="cai-dat/da-dang-ky-bo-cong-thuong.html"><img _ngcontent-sc3="" alt="" src="~/themes/assets/images/dadangky.png" style="width: 180px; height: 68px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <div _ngcontent-sc3="" class="container address">
+                    <div _ngcontent-sc3="" class="row">
+                        <div _ngcontent-sc3="" class="col-12 mx-auto text-center padding-top-15" style="color:#a6a6a6"> Bản quyền © @DateTime.Now.Year </div>
+                    </div>
+                </div>
+            </app-footer>
+        </div>
+    </app-root>
+
+    <script type="text/javascript" src="~/themes/runtime.js"></script>
+    <script type="text/javascript" src="~/themes/polyfills.js"></script>
+    <script type="text/javascript" src="~/themes/scripts.js"></script>
+    <script type="text/javascript" src="~/themes/main.js"></script>
+
+</body>
+</html>

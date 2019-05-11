@@ -1,0 +1,945 @@
+D:\DEV\WebDEV\WebDEV\bin\ApplicationInsights.config
+D:\DEV\WebDEV\WebDEV\bin\WebDEV.dll.config
+D:\DEV\WebDEV\WebDEV\bin\WebDEV.dll
+D:\DEV\WebDEV\WebDEV\bin\WebDEV.pdb
+D:\DEV\WebDEV\WebDEV\bin\roslyn\csc.exe
+D:\DEV\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+D:\DEV\WebDEV\WebDEV\bin\roslyn\csc.rsp
+D:\DEV\WebDEV\WebDEV\bin\roslyn\csi.exe
+D:\DEV\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+D:\DEV\WebDEV\WebDEV\bin\roslyn\csi.rsp
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DEV\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DEV\WebDEV\WebDEV\bin\roslyn\vbc.exe
+D:\DEV\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+D:\DEV\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+D:\DEV\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+D:\DEV\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+D:\DEV\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+D:\DEV\WebDEV\WebDEV\bin\EntityFramework.dll
+D:\DEV\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+D:\DEV\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Razor.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+D:\DEV\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+D:\DEV\WebDEV\WebDEV\bin\WebGrease.dll
+D:\DEV\WebDEV\WebDEV\bin\EntityFramework.xml
+D:\DEV\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.Razor.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+D:\DEV\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+D:\DEV\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+D:\DEV\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+D:\DEV\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+D:\DEV\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DEV\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+D:\DEV\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+D:\DEV\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+D:\DEV\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\ApplicationInsights.config
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll.config
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.pdb
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\WebGrease.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.rsp
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.rsp
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+C:\DEVELOPER\2019\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csprojAssemblyReference.cache
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\ApplicationInsights.config
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll.config
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.pdb
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.rsp
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.rsp
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\WebGrease.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\ApplicationInsights.config
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll.config
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.pdb
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.rsp
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.rsp
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\WebGrease.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+C:\DEVELOPER\GITHUB\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\ApplicationInsights.config
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll.config
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.pdb
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.rsp
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.rsp
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\WebGrease.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+C:\DATA\GIT\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csprojAssemblyReference.cache
+D:\DEV\GITHUB DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csprojAssemblyReference.cache
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\ApplicationInsights.config
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll.config
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.pdb
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.rsp
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.rsp
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\WebGrease.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+C:\GIT DEV\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\ApplicationInsights.config
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll.config
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\WebDEV.pdb
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.exe.config
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csc.rsp
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.exe.config
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\csi.rsp
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.AppContext.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Console.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Compression.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.IO.Pipes.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Claims.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.ValueTuple.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.exe.config
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\vbc.rsp
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.ApplicationInsights.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\WebGrease.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\EntityFramework.SqlServer.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Helpers.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Mvc.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Optimization.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.Razor.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Deployment.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Web.WebPages.Razor.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Newtonsoft.Json.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Antlr3.Runtime.pdb
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.AI.Web.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.dll
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.pdb
+D:\DEV\GITHUB DEV\MVC\WebDevMVC\WebDEV\WebDEV\obj\Debug\WebDEV.csprojAssemblyReference.cache
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\ApplicationInsights.config
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\WebDEV.dll.config
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\WebDEV.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\WebDEV.pdb
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\csc.exe
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\csc.exe.config
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\csc.rsp
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\csi.exe
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\csi.exe.config
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\csi.rsp
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.AppContext.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Console.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.IO.Compression.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.IO.Pipes.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.Claims.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.ValueTuple.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Xml.XPath.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\vbc.exe
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\vbc.exe.config
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\vbc.rsp
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\VBCSCompiler.exe
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Antlr3.Runtime.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\EntityFramework.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\EntityFramework.SqlServer.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.Web.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.ApplicationInsights.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Newtonsoft.Json.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Helpers.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Mvc.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Optimization.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Razor.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.WebPages.Deployment.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.WebPages.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.WebPages.Razor.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\WebGrease.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\EntityFramework.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\EntityFramework.SqlServer.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Helpers.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Mvc.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Optimization.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.Razor.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.WebPages.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.WebPages.Deployment.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Web.WebPages.Razor.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Newtonsoft.Json.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Antlr3.Runtime.pdb
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.AI.Web.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\obj\Debug\WebDEV.dll
+D:\DEV\GITHUB DEV\bdsDUC\WebDEV\obj\Debug\WebDEV.pdb
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\ApplicationInsights.config
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\WebDEV.dll.config
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\WebDEV.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\WebDEV.pdb
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\csc.exe
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\csc.exe.config
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\csc.rsp
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\csi.exe
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\csi.exe.config
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\csi.rsp
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.AppContext.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Console.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.IO.Compression.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.IO.Pipes.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.Claims.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.ValueTuple.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Xml.XPath.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\vbc.exe
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\vbc.exe.config
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\vbc.rsp
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\VBCSCompiler.exe
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Antlr3.Runtime.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\EntityFramework.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\EntityFramework.SqlServer.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.Web.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.ApplicationInsights.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Newtonsoft.Json.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Helpers.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Mvc.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Optimization.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Razor.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.WebPages.Deployment.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.WebPages.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.WebPages.Razor.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\WebGrease.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\EntityFramework.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\EntityFramework.SqlServer.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Helpers.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Mvc.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Optimization.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.Razor.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.WebPages.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.WebPages.Deployment.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Web.WebPages.Razor.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Newtonsoft.Json.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Antlr3.Runtime.pdb
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.AI.Web.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\obj\Debug\WebDEV.csprojAssemblyReference.cache
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\obj\Debug\WebDEV.dll
+C:\DEVELOPER\GITHUB\bdsDUC\WebDEV\obj\Debug\WebDEV.pdb
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\ApplicationInsights.config
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\WebDEV.dll.config
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\WebDEV.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\WebDEV.pdb
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\csc.exe
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\csc.exe.config
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\csc.rsp
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\csi.exe
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\csi.exe.config
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\csi.rsp
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.Managed.Core.targets
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.AppContext.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Collections.Immutable.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Console.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.IO.Compression.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.IO.FileSystem.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.IO.Pipes.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Reflection.Metadata.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.AccessControl.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.Claims.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Security.Principal.Windows.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.ValueTuple.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Xml.XmlDocument.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Xml.XPath.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\vbc.exe
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\vbc.exe.config
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\vbc.rsp
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\VBCSCompiler.exe
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\roslyn\VBCSCompiler.exe.config
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Antlr3.Runtime.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\EntityFramework.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\EntityFramework.SqlServer.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.Agent.Intercept.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.DependencyCollector.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.Web.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.WindowsServer.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.ApplicationInsights.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Newtonsoft.Json.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Diagnostics.DiagnosticSource.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Helpers.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Mvc.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Optimization.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Razor.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.WebPages.Deployment.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.WebPages.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.WebPages.Razor.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\WebGrease.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\EntityFramework.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\EntityFramework.SqlServer.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Helpers.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Mvc.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Optimization.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.Razor.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.WebPages.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.WebPages.Deployment.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Web.WebPages.Razor.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Newtonsoft.Json.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Antlr3.Runtime.pdb
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\System.Diagnostics.DiagnosticSource.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.DependencyCollector.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.WindowsServer.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.AI.Web.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PROJECT\bat-dong-san-viduc\WebDEV\obj\Debug\WebDEV.csproj.CoreCompileInputs.cache
+D:\PROJECT\bat-dong-san-viduc\WebDEV\obj\Debug\WebDEV.csproj.CopyComplete
+D:\PROJECT\bat-dong-san-viduc\WebDEV\obj\Debug\WebDEV.dll
+D:\PROJECT\bat-dong-san-viduc\WebDEV\obj\Debug\WebDEV.pdb

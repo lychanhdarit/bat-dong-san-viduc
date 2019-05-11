@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title </title>
+    @Html.Partial("_header_page")
+    @Styles.Render("~/Content/real-places")
+</head>
+<body class="inspiry-slider-two">
+    <div class="page-loader">
+        <img class="page-loader-img" src="~/real-places/images/page-loader-img.gif" alt="Page Loader" />
+    </div>
+    @Html.Partial("_header_menu")
+    @RenderBody()
+    <div style="background:#971718">
+        <div class="container">
+            <h2 style="margin: 0; padding: 15px;  font-size: 16px; color: #fff;padding-left:0;">ĐỊA ỐC PHỒN VINH</h2>
+        </div>
+    </div>
+    @Html.Partial("_footer")
+    <!-- .footer -->
+    @Scripts.RenderFormat("<script src='{0}' defer async></script>", "~/bundles/real-places")
+    <!-- .modal -->
+    
+
+</body>
+</html>

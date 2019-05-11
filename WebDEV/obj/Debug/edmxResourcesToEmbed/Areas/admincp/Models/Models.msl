@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities1">
+    <EntitySetMapping Name="news">
+      <EntityTypeMapping TypeName="DataModel.news">
+        <MappingFragment StoreEntitySet="news">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="desciption" ColumnName="desciption" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="content2" ColumnName="content2" />
+          <ScalarProperty Name="content3" ColumnName="content3" />
+          <ScalarProperty Name="content4" ColumnName="content4" />
+          <ScalarProperty Name="content5" ColumnName="content5" />
+          <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+          <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+          <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="dateend" ColumnName="dateend" />
+          <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+          <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+          <ScalarProperty Name="useredit" ColumnName="useredit" />
+          <ScalarProperty Name="actived" ColumnName="actived" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="news_category">
+      <EntityTypeMapping TypeName="DataModel.news_category">
+        <MappingFragment StoreEntitySet="news_category">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="desciption" ColumnName="desciption" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="content2" ColumnName="content2" />
+          <ScalarProperty Name="content3" ColumnName="content3" />
+          <ScalarProperty Name="content4" ColumnName="content4" />
+          <ScalarProperty Name="content5" ColumnName="content5" />
+          <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+          <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+          <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+          <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+          <ScalarProperty Name="useredit" ColumnName="useredit" />
+          <ScalarProperty Name="actived" ColumnName="actived" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pictures">
+      <EntityTypeMapping TypeName="DataModel.picture">
+        <MappingFragment StoreEntitySet="picture">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="group_picture" ColumnName="group_picture" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="note" ColumnName="note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="picture_group">
+      <EntityTypeMapping TypeName="DataModel.picture_group">
+        <MappingFragment StoreEntitySet="picture_group">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="note" ColumnName="note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="DataModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="desciption" ColumnName="desciption" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="content2" ColumnName="content2" />
+          <ScalarProperty Name="content3" ColumnName="content3" />
+          <ScalarProperty Name="content4" ColumnName="content4" />
+          <ScalarProperty Name="content5" ColumnName="content5" />
+          <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+          <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+          <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+          <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+          <ScalarProperty Name="dateend" ColumnName="dateend" />
+          <ScalarProperty Name="useredit" ColumnName="useredit" />
+          <ScalarProperty Name="actived" ColumnName="actived" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product_category">
+      <EntityTypeMapping TypeName="DataModel.product_category">
+        <MappingFragment StoreEntitySet="product_category">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="desciption" ColumnName="desciption" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="content2" ColumnName="content2" />
+          <ScalarProperty Name="content3" ColumnName="content3" />
+          <ScalarProperty Name="content4" ColumnName="content4" />
+          <ScalarProperty Name="content5" ColumnName="content5" />
+          <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+          <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+          <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+          <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+          <ScalarProperty Name="useredit" ColumnName="useredit" />
+          <ScalarProperty Name="actived" ColumnName="actived" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product_picture">
+      <EntityTypeMapping TypeName="DataModel.product_picture">
+        <MappingFragment StoreEntitySet="product_picture">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="active" ColumnName="active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="router_config">
+      <EntityTypeMapping TypeName="DataModel.router_config">
+        <MappingFragment StoreEntitySet="router_config">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="controller" ColumnName="controller" />
+          <ScalarProperty Name="action" ColumnName="action" />
+          <ScalarProperty Name="itemId" ColumnName="itemId" />
+          <ScalarProperty Name="actived" ColumnName="actived" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DataModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_group">
+      <EntityTypeMapping TypeName="DataModel.user_group">
+        <MappingFragment StoreEntitySet="user_group">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="permission" ColumnName="permission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_member">
+      <EntityTypeMapping TypeName="DataModel.user_member">
+        <MappingFragment StoreEntitySet="user_member">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password_user" ColumnName="password_user" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="group_user" ColumnName="group_user" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pages">
+      <EntityTypeMapping TypeName="DataModel.page">
+        <MappingFragment StoreEntitySet="page">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="views" ColumnName="views" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="actived" ColumnName="actived" />
+          <ScalarProperty Name="useredit" ColumnName="useredit" />
+          <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+          <ScalarProperty Name="dateedit" ColumnName="dateedit" />
+          <ScalarProperty Name="dateend" ColumnName="dateend" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="meta_keywords" ColumnName="meta_keywords" />
+          <ScalarProperty Name="meta_description" ColumnName="meta_description" />
+          <ScalarProperty Name="meta_title" ColumnName="meta_title" />
+          <ScalarProperty Name="content5" ColumnName="content5" />
+          <ScalarProperty Name="content4" ColumnName="content4" />
+          <ScalarProperty Name="content3" ColumnName="content3" />
+          <ScalarProperty Name="content2" ColumnName="content2" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="desciption" ColumnName="desciption" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menus">
+      <EntityTypeMapping TypeName="DataModel.menu">
+        <MappingFragment StoreEntitySet="menu">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="parent" ColumnName="parent" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="style" ColumnName="style" />
+          <ScalarProperty Name="group_menu" ColumnName="group_menu" />
+          <ScalarProperty Name="sort" ColumnName="sort" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menu_group">
+      <EntityTypeMapping TypeName="DataModel.menu_group">
+        <MappingFragment StoreEntitySet="menu_group">
+          <ScalarProperty Name="lang" ColumnName="lang" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="group_inbox">
+      <EntityTypeMapping TypeName="DataModel.group_inbox">
+        <MappingFragment StoreEntitySet="group_inbox">
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inboxes">
+      <EntityTypeMapping TypeName="DataModel.inbox">
+        <MappingFragment StoreEntitySet="inbox">
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="groupid" ColumnName="groupid" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="DataModel.order">
+        <MappingFragment StoreEntitySet="order">
+          <ScalarProperty Name="promo_price" ColumnName="promo_price" />
+          <ScalarProperty Name="promo_code" ColumnName="promo_code" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_detail">
+      <EntityTypeMapping TypeName="DataModel.order_detail">
+        <MappingFragment StoreEntitySet="order_detail">
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="idProduct" ColumnName="idProduct" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="category_banner">
+      <EntityTypeMapping TypeName="DataModel.category_banner">
+        <MappingFragment StoreEntitySet="category_banner">
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="idGroupBanner" ColumnName="idGroupBanner" />
+          <ScalarProperty Name="idCategory" ColumnName="idCategory" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="category_product_banner">
+      <EntityTypeMapping TypeName="DataModel.category_product_banner">
+        <MappingFragment StoreEntitySet="category_product_banner">
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="idGroupBanner" ColumnName="idGroupBanner" />
+          <ScalarProperty Name="idCategory" ColumnName="idCategory" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="config_site">
+      <EntityTypeMapping TypeName="DataModel.config_site">
+        <MappingFragment StoreEntitySet="config_site">
+          <ScalarProperty Name="content3" ColumnName="content3" />
+          <ScalarProperty Name="content2" ColumnName="content2" />
+          <ScalarProperty Name="content1" ColumnName="content1" />
+          <ScalarProperty Name="facebook_code" ColumnName="facebook_code" />
+          <ScalarProperty Name="contact_footer" ColumnName="contact_footer" />
+          <ScalarProperty Name="map_content" ColumnName="map_content" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

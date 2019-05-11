@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title</title> 
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Areas/content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="~/Areas/content/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="~/Areas/content/vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+    <!-- DataTables Responsive CSS -->
+    <link href="~/Areas/content/vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Areas/content/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="~/Areas/content/vendor/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/Areas/content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="~/admincp/">ADMIN</a>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="~/admincp/"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-folder fa-fw"></i> Sản Phẩm<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/products">Sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/product_category">Danh mục</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-folder fa-fw"></i> Bài viết<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/news">Bài viết</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/news_category">Danh mục</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-folder fa-fw"></i> Trang <span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/pages">Danh sách trang</a>
+                                </li>
+
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-folder fa-fw"></i> Giao diện <span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/menus">Menu</a>
+                                </li>
+
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-image fa-fw"></i> Hình ảnh<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/pictures">Hình ảnh</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/picture_group">Danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/category_news_banner">Cài đặt banner bài viết</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/category_product_banner">Cài đặt banner sản phẩm</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-envelope fa-fw"></i>Hộp thư</a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/inboxes/"><i class="fa fa-envelope fa-fw"></i>Tin nhắn</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/group_inbox/"><i class="fa fa-envelope-open fa-fw"></i>Nhóm tin</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Cài đặt<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="~/admincp/user_group/"><i class="fa fa-users fa-fw"></i>Nhóm tài khoản</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/user_member/"><i class="fa fa-users fa-fw"></i>Tài khoản</a>
+                                </li>
+                                <li>
+                                    <a href="~/admincp/router_config"><i class="fa fa-wrench fa-fw"></i> Router</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-sitemap fa-fw"></i> Sitemap</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="~/admincp/login/"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- jQuery -->
+        <script src="~/Areas/content/vendor/jquery/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="~/Areas/content/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- DataTables JavaScript -->
+        <script src="~/Areas/content/vendor/datatables/js/jquery.dataTables.min.js"></script>
+        <script src="~/Areas/content/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+        <script src="~/Areas/content/vendor/datatables-responsive/dataTables.responsive.js"></script>
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="~/Areas/content/vendor/metisMenu/metisMenu.min.js"></script>
+        <!-- Morris Charts JavaScript -->
+        <script src="~/Areas/content/vendor/raphael/raphael.min.js"></script>
+        <script src="~/Areas/content/vendor/morrisjs/morris.min.js"></script>
+        <script src="~/Areas/content/data/morris-data.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="~/Areas/content/dist/js/sb-admin-2.js"></script>
+
+        <div id="page-wrapper">
+            @RenderBody()
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+   
+</body>
+</html>

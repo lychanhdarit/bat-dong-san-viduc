@@ -1,0 +1,67 @@
+﻿@model WebDEV.Areas.admincp.Models.config_site
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/admincp/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>config_site</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.map_content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.map_content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contact_footer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contact_footer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.facebook_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.facebook_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.content1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.content1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.content2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.content2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.content3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.content3)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

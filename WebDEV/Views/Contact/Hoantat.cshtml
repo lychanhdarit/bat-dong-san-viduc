@@ -1,0 +1,83 @@
+﻿
+@{
+                /**/
+
+                ViewBag.Title = "Hoantat";
+                Layout = "~/Views/Shared/_TemplateDR.cshtml";
+}
+
+
+<section>
+    <div id="head_bottom">
+        <div id="head_slide">
+            <style>
+
+                #slide_home img {
+                    width: 100%;
+                }
+            </style>
+            <div class="box_slider">
+                <ul id="slide_home" class="block-slide">
+                    @Html.Raw(ViewBag.Slider)
+                </ul>
+            </div>
+            <script>
+                jQuery(function () {
+                    jQuery('#slide_home').bxSlider({ pager: false, auto: true });
+                })
+            </script>
+        </div>
+    </div><div id="breadcrumb">
+        <div class="wrapper-center">
+            <ul>
+                <li>
+                    <i>/</i>
+                    <a href="/" title="Trang chủ">Trang chủ</a>
+                </li>
+                <li> <i>/</i>  <a href="../contact" title="Liên hệ">Liên hệ</a> </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+                                        //jQuery(function(){jQuery("#breadcrumb").sticky({topSpacing:42});});
+    </script>
+</section>
+<section id="section_middle">
+    <div id="contact" class="">
+        <a href="/"><h2 class="block-defult-title" style="color:#fff">BẠN ĐÃ GỬI THÔNG TIN THÀNH CÔNG!</h2></a>
+        <div id="contact_top"><div class="contact-top-in"></div></div><div class="wrapper-center dpfl">
+
+            <div id="contact_left" class="o-1-1 o-mi-md-1-2">
+                <div class="contact-left-in">
+                    <div class="block-defult">
+                        <div class="block-defult-content">
+                            <div class="block-info-contact">
+                                <h1 class="block-defult-title">CÔNG TY CỔ PHẦN Phân Bón Quốc Tế</h1>
+                                <div class="box-info box-address"><i class="fa fa-map-marker"></i><span>Địa chỉ: Lô B118, Đường số 5, KCN Thái Hòa, Đức Lập Hạ, Đức Hòa, Long An</span></div><div class="box-info box-hotline"><i class="fa fa-mobile"></i><span>Hotline: 0932 629 369</span></div><div class="box-info box-email"><i class="fa fa-envelope"></i><span>Email: phanbonquocte@gmail.com</span></div>
+                                <div class="box-info box-phone"><i class="fa fa-phone"></i><span>Điện Thoại: (072) 381 9812 - Fax : (072) 381 9813</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right-in">
+
+                </div>
+            </div>
+            <div id="contact_right" class="o-1-1 o-mi-md-1-2">
+                <div class="contact-bottom-in">
+                    <div class="block-html">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15670.274023262175!2d106.468684!3d10.920361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c7845c32785527e!2sFERTILIZER+CORPORATION+INTERNATIONAL!5e0!3m2!1sen!2s!4v1546618274620" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-center">
+            <div id="contact_bottom">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

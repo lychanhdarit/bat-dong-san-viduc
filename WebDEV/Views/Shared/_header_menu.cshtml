@@ -1,0 +1,133 @@
+﻿
+<div id="mobile-header" class="mobile-header hidden-md hidden-lg">
+    <div class="contact-number">
+        <svg xmlns="http://www.w3.org/2000/svg" class="contacts-icon-container" width="10" height="16" viewBox="0 0 10 16">
+            <path class="icon-phone-two" fill="#660000" d="M7.06452,16.0606h-3.997c-1.653 0-2.995-1.342-2.995-2.998v-9.99c0-1.654 1.342-2.998 2.996-2.998h3.997c1.655 0 2.997 1.344 2.997 2.998v9.99c0 1.656-1.342 2.998-2.997 2.998zm1-5.822v-7.166c0-.55-.447-1-1-1h-3.995c-.552 0-1 .448-1 1v9.991c0 .552.447 1 1 1h3.995c.552 0 1-.448 1-1v-2.825zm-2.997 2.824c-.55 0-1-.447-1-.998 0-.553.448-1 1-1s1 .447 1 1c0 .55-.448.998-1 .998z" />
+        </svg>
+        <span class="desktop-version hidden-xs">1-800-555-1234</span>
+        <a class="mobile-version visible-xs-inline-block" href="tel://1-800-555-1234" title="Make a Call">0964.900.534</a>
+    </div>
+    <!-- .contact-number -->
+    <div class="mobile-header-nav">
+        <ul class="user-nav">
+            <li>
+                <a href="mailto:sales@yourwebsite.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="contacts-icon-container" width="16" height="10" viewBox="0 0 16 10">
+                        <path class="icon-email-two" fill="#737a84" d="M15.09455,11.9789h-13.986c-.55 0-1-.447-1-1v-9.99c0-.55.448-.998 1-.998h13.986c.552 0 1 .447 1 1v9.99c0 .55-.448.998-1 .998zm-2.412-1.997l-3.02-3.02-.91.78c-.175.15-.402.24-.65.24-.25 0-.475-.09-.65-.24l-.913-.78-3.02 3.02h9.164zm-10.575-1.413l2.912-2.91-2.912-2.497v5.407zm1.703-6.58l4.291 3.679 4.293-3.68h-8.585zm7.375 3.67l2.912 2.91v-5.406l-2.912 2.495z" />
+                    </svg>
+                    sales@yourwebsite.com
+                </a>
+            </li>
+
+            <li><a href="/"><i class="fa home"></i>Trang chủ</a></li>
+            <li><a href="/"><i class="fa fa-user"></i>Giới thiệu</a></li>
+            <li><a href="/"><i class="fa fa-th-list"></i>Liên hệ</a></li>
+        </ul>
+        <!-- .user-nav -->
+        <div class="social-networks header-social-nav">
+            <a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a><a class="facebook" target="_blank" href="#"><i class="fa fa-facebook"></i></a><a class="gplus" target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <!-- .social-networks -->
+    </div>
+</div>
+
+
+<header class="site-header header header-variation-three">
+    <div class="top-m">
+        <div class="container">
+            <div class="row zero-horizontal-margin">
+                <div class="col-lg-6 zero-horizontal-padding">
+                    <ul class="user-nav" style="float: left;"> 
+                        <li><a href="/"><i class="fas fa-globe-europe"></i> diaocphonvinh.com</a></li>
+                        <li><a href="/"><i class="fas fa-phone"></i> 0938.28.28.53</a></li>
+                        <li><a href="/"><i class="fas fa-envelope"></i> diaocphonvinh@gmail.com</a></li>
+                    </ul><!-- .user-nav -->
+
+                </div>
+                <!-- .left-column -->
+                <div class="col-lg-6 zero-horizontal-padding hidden-xs hidden-sm">
+                    <div class=" clearfix"> 
+                        <ul class="user-nav">
+                            <li><a href="/"><i class="fas fa-home"></i> Trang chủ</a></li>
+                            <li><a href="/"><i class="fas fa-user"></i> Giới thiệu</a></li>
+                            <li><a href="/"><i class="fas fa-th-list"></i> Liên hệ</a></li>
+                        </ul><!-- .user-nav -->
+                    </div>
+                    <!-- .header-top -->
+                    <div class=" clearfix"></div>
+                    <!-- .header-bottom -->
+                </div>
+                <!-- .right-column -->
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row zero-horizontal-margin" style="background:#fff">
+                <div class="col-lg-3 zero-horizontal-padding">
+                    <div id="site-logo" class="site-logo">
+                        <div class="logo-inner-wrapper">
+                            <a href="/"><img src="~/logo.png" alt="Logo" style="height: 89px;" /></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- .left-column -->
+                <div class="col-lg-9 zero-horizontal-padding hidden-xs hidden-sm">
+                    <!-- .header-top -->
+                    <div class="header-bottom clearfix">
+                        <!-- .contact-number -->
+                        <nav id="site-main-nav" class="site-main-nav">
+                            <ul class="main-menu clearfix">
+                                <li class="current-menu-item">
+                                    <a href="/">Mới nhất</a>
+                                </li>
+                                @Html.Raw(ViewBag.Menu)
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- .header-bottom -->
+                </div>
+                <!-- .right-column -->
+            </div>
+            <!-- .row -->
+        </div>
+    </div>
+    <!-- .container -->
+</header>
+
+<style>
+    .top-m {
+        background: #c62223;
+        padding: 5px;
+    }
+    .header-variation-three {
+        color: #232323;
+        background-color: transparent;
+    }
+        .header-variation-three .header-social-nav > a, .header-variation-three .user-nav a {
+            color: #fff;
+        }
+        .header-variation-three .main-menu > li > a {
+            color: #c62223;
+        }
+    .site-main-nav .main-menu > li > a {
+        text-transform: none;
+    }
+    .header-variation-three .main-menu > li:hover > a, .header-variation-three .main-menu > .current-menu-item > a {
+        background-color: #c62223;
+        border-radius: 20px;
+    }
+    .user-nav a {
+        font-size: 12px;
+        text-transform: none;
+        font-weight: bold;
+        padding: 10px;
+    }
+    @@media (min-width: 1200px){
+        .header-variation-three .header-bottom {
+            bottom: 30px;
+        }
+    }
+
+</style>

@@ -1,0 +1,46 @@
+﻿.header-variation-three {
+    color: #fff;
+    background-color: #c52223;
+}
+    .header-variation-three .header-social-nav > a, .header-variation-three .user-nav a {
+        color: #fff;
+    }
+    .header-variation-three .main-menu > li:hover > a, .header-variation-three .main-menu > .current-menu-item > a {
+        background-color: #8b5e3b;
+    }
+    .header-variation-three .sub-menu {
+        background-color: #797979;
+    }
+        .header-variation-three .sub-menu a {
+            color: #fff;
+        }
+.site-footer-two {
+    background-color: #c52223;
+    color: #ffffff;
+}
+.agent-name span {
+    color: #9c9c9c;
+}
+.agent-social-profiles a {
+    color: #969696;
+}
+.agent-contacts-list .contacts-icon {
+    fill: #989898;
+}
+.agent-post-even .btn-default, .agent-sidebar-widget .btn-default {
+    background-color: #464646;
+}
+.site-footer .widget-title {
+    font-size: 14px;
+    border-bottom: 2px dashed #fff;
+    padding: 10px;
+    padding-left:0;
+}
+.site-footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+    .site-footer a {
+        color: #fff;
+    }
