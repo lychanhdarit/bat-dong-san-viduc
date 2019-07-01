@@ -7,44 +7,41 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebDEV.Areas.admincp.Models
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+
+public partial class DataEntities1 : DbContext
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
-    public partial class DataEntities1 : DbContext
+    public DataEntities1()
+        : base("name=DataEntities1")
     {
-        public DataEntities1()
-            : base("name=DataEntities1")
-        {
-        }
-    
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
-    
-        public virtual DbSet<news> news { get; set; }
-        public virtual DbSet<news_category> news_category { get; set; }
-        public virtual DbSet<picture> pictures { get; set; }
-        public virtual DbSet<picture_group> picture_group { get; set; }
-        public virtual DbSet<product> products { get; set; }
-        public virtual DbSet<product_category> product_category { get; set; }
-        public virtual DbSet<product_picture> product_picture { get; set; }
-        public virtual DbSet<router_config> router_config { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
-        public virtual DbSet<user_group> user_group { get; set; }
-        public virtual DbSet<user_member> user_member { get; set; }
-        public virtual DbSet<page> pages { get; set; }
-        public virtual DbSet<menu> menus { get; set; }
-        public virtual DbSet<menu_group> menu_group { get; set; }
-        public virtual DbSet<group_inbox> group_inbox { get; set; }
-        public virtual DbSet<inbox> inboxes { get; set; }
-        public virtual DbSet<order> orders { get; set; }
-        public virtual DbSet<order_detail> order_detail { get; set; }
-        public virtual DbSet<category_banner> category_banner { get; set; }
-        public virtual DbSet<category_product_banner> category_product_banner { get; set; }
-        public virtual DbSet<config_site> config_site { get; set; }
     }
+
+    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    {
+        throw new UnintentionalCodeFirstException();
+    }
+
+    public virtual DbSet<news> news { get; set; }
+    public virtual DbSet<news_category> news_category { get; set; }
+    public virtual DbSet<picture> pictures { get; set; }
+    public virtual DbSet<picture_group> picture_group { get; set; }
+    public virtual DbSet<product> products { get; set; }
+    public virtual DbSet<product_category> product_category { get; set; }
+    public virtual DbSet<product_picture> product_picture { get; set; }
+    public virtual DbSet<router_config> router_config { get; set; }
+    public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+    public virtual DbSet<user_group> user_group { get; set; }
+    public virtual DbSet<user_member> user_member { get; set; }
+    public virtual DbSet<page> pages { get; set; }
+    public virtual DbSet<menu> menus { get; set; }
+    public virtual DbSet<menu_group> menu_group { get; set; }
+    public virtual DbSet<group_inbox> group_inbox { get; set; }
+    public virtual DbSet<inbox> inboxes { get; set; }
+    public virtual DbSet<order> orders { get; set; }
+    public virtual DbSet<order_detail> order_detail { get; set; }
+    public virtual DbSet<category_banner> category_banner { get; set; }
+    public virtual DbSet<category_product_banner> category_product_banner { get; set; }
+    public virtual DbSet<config_site> config_site { get; set; }
 }

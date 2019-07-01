@@ -7,3 +7,428 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.Collections.Generic;
+
+public partial class category_banner
+{
+    public int id { get; set; }
+    public Nullable<int> idCategory { get; set; }
+    public Nullable<int> idGroupBanner { get; set; }
+    public string Note { get; set; }
+
+    public virtual news_category news_category { get; set; }
+    public virtual picture_group picture_group { get; set; }
+}
+
+public partial class category_product_banner
+{
+    public int id { get; set; }
+    public Nullable<int> idCategory { get; set; }
+    public Nullable<int> idGroupBanner { get; set; }
+    public string Note { get; set; }
+
+    public virtual picture_group picture_group { get; set; }
+    public virtual product_category product_category { get; set; }
+}
+
+public partial class config_site
+{
+    public int id { get; set; }
+    public string map_content { get; set; }
+    public string contact_footer { get; set; }
+    public string facebook_code { get; set; }
+    public string content1 { get; set; }
+    public string content2 { get; set; }
+    public string content3 { get; set; }
+}
+
+public partial class group_inbox
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public group_inbox()
+    {
+        this.inboxes = new HashSet<inbox>();
+    }
+
+    public int id { get; set; }
+    public string name { get; set; }
+    public Nullable<bool> active { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<inbox> inboxes { get; set; }
+}
+
+public partial class inbox
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string email { get; set; }
+    public string phone { get; set; }
+    public string message { get; set; }
+    public Nullable<bool> active { get; set; }
+    public Nullable<int> groupid { get; set; }
+    public string subject { get; set; }
+    public string address { get; set; }
+    public string note { get; set; }
+
+    public virtual group_inbox group_inbox { get; set; }
+}
+
+public partial class menu
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string url { get; set; }
+    public Nullable<bool> active { get; set; }
+    public string images { get; set; }
+    public Nullable<int> sort { get; set; }
+    public Nullable<int> group_menu { get; set; }
+    public Nullable<int> style { get; set; }
+    public string code { get; set; }
+    public string note { get; set; }
+    public Nullable<int> parent { get; set; }
+    public string lang { get; set; }
+
+    public virtual menu_group menu_group { get; set; }
+}
+
+public partial class menu_group
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public menu_group()
+    {
+        this.menus = new HashSet<menu>();
+    }
+
+    public int id { get; set; }
+    public string name { get; set; }
+    public string note { get; set; }
+    public string active { get; set; }
+    public string images { get; set; }
+    public string lang { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<menu> menus { get; set; }
+}
+
+public partial class news
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string desciption { get; set; }
+    public string content1 { get; set; }
+    public string content2 { get; set; }
+    public string content3 { get; set; }
+    public string content4 { get; set; }
+    public string content5 { get; set; }
+    public string meta_title { get; set; }
+    public string meta_description { get; set; }
+    public string meta_keywords { get; set; }
+    public string images { get; set; }
+    public string datecreate { get; set; }
+    public string dateend { get; set; }
+    public string dateedit { get; set; }
+    public Nullable<int> usercreate { get; set; }
+    public Nullable<int> useredit { get; set; }
+    public Nullable<bool> actived { get; set; }
+    public Nullable<bool> deleted { get; set; }
+    public Nullable<int> parent { get; set; }
+    public string tags { get; set; }
+    public Nullable<int> views { get; set; }
+    public Nullable<int> rating { get; set; }
+    public string code { get; set; }
+    public string url { get; set; }
+    public string price { get; set; }
+    public Nullable<int> quantity { get; set; }
+    public string lang { get; set; }
+
+    public virtual news_category news_category { get; set; }
+}
+
+public partial class news_category
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public news_category()
+    {
+        this.news = new HashSet<news>();
+        this.category_banner = new HashSet<category_banner>();
+    }
+
+    public int id { get; set; }
+    public string name { get; set; }
+    public string desciption { get; set; }
+    public string content1 { get; set; }
+    public string content2 { get; set; }
+    public string content3 { get; set; }
+    public string content4 { get; set; }
+    public string content5 { get; set; }
+    public string meta_title { get; set; }
+    public string meta_description { get; set; }
+    public string meta_keywords { get; set; }
+    public string images { get; set; }
+    public string datecreate { get; set; }
+    public string dateedit { get; set; }
+    public Nullable<int> usercreate { get; set; }
+    public Nullable<int> useredit { get; set; }
+    public Nullable<bool> actived { get; set; }
+    public Nullable<bool> deleted { get; set; }
+    public Nullable<int> parent { get; set; }
+    public string tags { get; set; }
+    public Nullable<int> views { get; set; }
+    public Nullable<int> rating { get; set; }
+    public string code { get; set; }
+    public string url { get; set; }
+    public string price { get; set; }
+    public Nullable<int> quantity { get; set; }
+    public string lang { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<news> news { get; set; }
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<category_banner> category_banner { get; set; }
+}
+
+public partial class order
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public order()
+    {
+        this.order_detail = new HashSet<order_detail>();
+    }
+
+    public int id { get; set; }
+    public string code { get; set; }
+    public string name { get; set; }
+    public string phone { get; set; }
+    public string email { get; set; }
+    public string address { get; set; }
+    public string datecreate { get; set; }
+    public Nullable<int> status { get; set; }
+    public Nullable<decimal> total { get; set; }
+    public Nullable<bool> active { get; set; }
+    public string promo_code { get; set; }
+    public Nullable<decimal> promo_price { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<order_detail> order_detail { get; set; }
+}
+
+public partial class order_detail
+{
+    public int id { get; set; }
+    public Nullable<int> idOrder { get; set; }
+    public Nullable<int> idProduct { get; set; }
+    public string name { get; set; }
+    public Nullable<int> quantity { get; set; }
+    public Nullable<decimal> price { get; set; }
+
+    public virtual order order { get; set; }
+}
+
+public partial class page
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string desciption { get; set; }
+    public string content1 { get; set; }
+    public string content2 { get; set; }
+    public string content3 { get; set; }
+    public string content4 { get; set; }
+    public string content5 { get; set; }
+    public string meta_title { get; set; }
+    public string meta_description { get; set; }
+    public string meta_keywords { get; set; }
+    public string images { get; set; }
+    public string datecreate { get; set; }
+    public string dateend { get; set; }
+    public string dateedit { get; set; }
+    public Nullable<int> usercreate { get; set; }
+    public Nullable<int> useredit { get; set; }
+    public Nullable<bool> actived { get; set; }
+    public Nullable<bool> deleted { get; set; }
+    public Nullable<int> parent { get; set; }
+    public string tags { get; set; }
+    public Nullable<int> views { get; set; }
+    public Nullable<int> rating { get; set; }
+    public string code { get; set; }
+    public string url { get; set; }
+    public string price { get; set; }
+    public Nullable<int> quantity { get; set; }
+    public string lang { get; set; }
+}
+
+public partial class picture
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string filename { get; set; }
+    public Nullable<int> group_picture { get; set; }
+    public Nullable<bool> active { get; set; }
+    public string note { get; set; }
+
+    public virtual picture_group picture_group { get; set; }
+}
+
+public partial class picture_group
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public picture_group()
+    {
+        this.pictures = new HashSet<picture>();
+        this.category_banner = new HashSet<category_banner>();
+        this.category_product_banner = new HashSet<category_product_banner>();
+    }
+
+    public int id { get; set; }
+    public string name { get; set; }
+    public Nullable<bool> active { get; set; }
+    public string note { get; set; }
+    public string lang { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<picture> pictures { get; set; }
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<category_banner> category_banner { get; set; }
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<category_product_banner> category_product_banner { get; set; }
+}
+
+public partial class product
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public string desciption { get; set; }
+    public string content1 { get; set; }
+    public string content2 { get; set; }
+    public string content3 { get; set; }
+    public string content4 { get; set; }
+    public string content5 { get; set; }
+    public string meta_title { get; set; }
+    public string meta_description { get; set; }
+    public string meta_keywords { get; set; }
+    public string images { get; set; }
+    public string datecreate { get; set; }
+    public string dateedit { get; set; }
+    public Nullable<int> usercreate { get; set; }
+    public string dateend { get; set; }
+    public Nullable<int> useredit { get; set; }
+    public Nullable<bool> actived { get; set; }
+    public Nullable<bool> deleted { get; set; }
+    public Nullable<int> parent { get; set; }
+    public string tags { get; set; }
+    public Nullable<int> views { get; set; }
+    public Nullable<int> rating { get; set; }
+    public string code { get; set; }
+    public string url { get; set; }
+    public string price { get; set; }
+    public Nullable<int> quantity { get; set; }
+
+    public virtual product_category product_category { get; set; }
+}
+
+public partial class product_category
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public product_category()
+    {
+        this.products = new HashSet<product>();
+        this.category_product_banner = new HashSet<category_product_banner>();
+    }
+
+    public int id { get; set; }
+    public string name { get; set; }
+    public string desciption { get; set; }
+    public string content1 { get; set; }
+    public string content2 { get; set; }
+    public string content3 { get; set; }
+    public string content4 { get; set; }
+    public string content5 { get; set; }
+    public string meta_title { get; set; }
+    public string meta_description { get; set; }
+    public string meta_keywords { get; set; }
+    public string images { get; set; }
+    public string datecreate { get; set; }
+    public string dateedit { get; set; }
+    public Nullable<int> usercreate { get; set; }
+    public Nullable<int> useredit { get; set; }
+    public Nullable<bool> actived { get; set; }
+    public Nullable<bool> deleted { get; set; }
+    public Nullable<int> parent { get; set; }
+    public string tags { get; set; }
+    public Nullable<int> views { get; set; }
+    public Nullable<int> rating { get; set; }
+    public string code { get; set; }
+    public string url { get; set; }
+    public string price { get; set; }
+    public Nullable<int> quantity { get; set; }
+    public string lang { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<product> products { get; set; }
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<category_product_banner> category_product_banner { get; set; }
+}
+
+public partial class product_picture
+{
+    public int id { get; set; }
+    public Nullable<int> id_product { get; set; }
+    public string filename { get; set; }
+    public string title { get; set; }
+    public Nullable<bool> active { get; set; }
+    public string lang { get; set; }
+}
+
+public partial class router_config
+{
+    public int id { get; set; }
+    public string url { get; set; }
+    public string controller { get; set; }
+    public string action { get; set; }
+    public string itemId { get; set; }
+    public Nullable<bool> actived { get; set; }
+}
+
+public partial class sysdiagram
+{
+    public string name { get; set; }
+    public int principal_id { get; set; }
+    public int diagram_id { get; set; }
+    public Nullable<int> version { get; set; }
+    public byte[] definition { get; set; }
+}
+
+public partial class user_group
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public user_group()
+    {
+        this.user_member = new HashSet<user_member>();
+    }
+
+    public int id { get; set; }
+    public string name { get; set; }
+    public Nullable<bool> active { get; set; }
+    public string permission { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+    public virtual ICollection<user_member> user_member { get; set; }
+}
+
+public partial class user_member
+{
+    public int id { get; set; }
+    public string username { get; set; }
+    public string password_user { get; set; }
+    public string fullname { get; set; }
+    public string email { get; set; }
+    public string phone { get; set; }
+    public string address { get; set; }
+    public string birthday { get; set; }
+    public Nullable<bool> active { get; set; }
+    public Nullable<int> group_user { get; set; }
+    public string datecreate { get; set; }
+
+    public virtual user_group user_group { get; set; }
+}
