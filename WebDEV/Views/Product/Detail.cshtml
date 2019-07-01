@@ -60,8 +60,7 @@
                                         <img src="~/Upload/images/products/@Model.images" alt="@Model.name">
                                     </div>
                                     <div class="entry-content clearfix">
-                                        <h4 class="fancy-title">Mô tả</h4>
-
+                                        <h4 class="fancy-title">Mô tả</h4> 
                                         <div class="property-additional-details clearfix">
                                             @Html.Raw(Model.content1)
                                         </div>
@@ -71,9 +70,7 @@
                                     <h4 class="fancy-title">Bản đồ chỉ đường</h4>
                                     <div id="property-map">
                                         @Html.Raw(Model.content4)
-                                    </div>
-
-
+                                    </div> 
                                 </section>
 
 
@@ -84,7 +81,7 @@
                         <div class="col-md-4 zero-horizontal-padding">
                             <aside class="sidebar sidebar-property-detail">
                                 <section class="agent-sidebar-widget clearfix">
-                                    <div>
+                                    <div style="    background: #fff;  padding: 15px;">
                                         <h1 class="entry-title single-property-title">@Model.name</h1>
                                         <span class="single-property-price price">Giá: @Model.price</span>
                                         <span class="meta-item-label">Diện tích: </span>
@@ -132,9 +129,12 @@
                         <!-- .site-sidebar-content -->
                     </div>
                     <!-- .container-property-single -->
-                    <div>
+                    <div class="bt-qt">
                         <h4>Có thể bạn quan tâm</h4>
                         @Html.Raw(ViewBag.ProductCategory)
+                        <div style="clear:both">
+
+                        </div>
                     </div>
                 </div>
                 <!-- .container -->
@@ -142,3 +142,9 @@
             <!-- .site-content -->
         </div>
         <!-- .site-content-wrapper -->
+<style>
+    .bt-qt.hentry{
+        width:33%;
+        float:left;
+    }
+</style>
