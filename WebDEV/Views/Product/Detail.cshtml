@@ -130,7 +130,8 @@
                     </div>
                     <!-- .container-property-single -->
                     <div class="bt-qt">
-                        <h4>Có thể bạn quan tâm</h4>
+                        <h4 style="font-weight:bold;font-size:1.5em;margin-bottom:0px"> Có thể bạn quan tâm</h4>
+                        <img src="/Content/line.jpg" style="max-width:100%;margin-bottom:30px">
                         @Html.Raw(ViewBag.ProductCategory)
                         <div style="clear:both">
 
@@ -143,8 +144,47 @@
         </div>
         <!-- .site-content-wrapper -->
 <style>
-    .bt-qt.hentry{
-        width:33%;
-        float:left;
+    .bt-qt .hentry {
+        width: 33%;
+        float: left;
+        padding: 25px;
     }
+        .bt-qt .hentry h3.entry-title {
+            padding-top: 10px;
+            font-size: 16px;
+            height: 40px;
+        }
+        .bt-qt .hentry h3.entry-title a {
+            color: #c62223;
+        }
+        .bt-qt .hentry .price-and-status {
+            border-top: 2px solid #c62223;
+            border-bottom: 2px solid #c62223;
+            text-align: center;
+            color: #c62223;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px
+        }
+    .bt-qt .hentry span.property-status-tag {
+        display: none;
+    }
+        .bt-qt .hentry  .price-and-status span {
+            vertical-align: middle;
+            font-size: 1.5em;
+        }
+        .bt-qt .hentry i.meta-item-icon.icon-area {
+            display: none;
+        }
+        .bt-qt .hentry .meta-inner-wrapper {
+            display: flex;
+            vertical-align: middle;
+        }
+            .bt-qt .hentry .meta-inner-wrapper span {
+                line-height: 18px !important;
+                font-size: 12px !important;
+                margin-right:3px;
+            }
 </style>
