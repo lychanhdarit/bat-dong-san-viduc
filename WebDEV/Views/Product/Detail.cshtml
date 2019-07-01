@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_RealPlaceDetails.cshtml";
 }
 <!-- .site-header -->
-<ul class="breadcrumb">
+<ul id="breadcrumb">
     <li>
         <a href="/" title="Trang chủ">Trang chủ</a>
     </li>
@@ -14,11 +14,11 @@
     <li class="active">   <a href="~/@Model.url" title="@Model.name">@Model.name</a> </li>
 </ul>
 <style>
-    .breadcrumb {
+    #breadcrumb {
         background: #ffe2e4;
     }
 
-        .breadcrumb li {
+        #breadcrumb li {
             display: inline-block;
             list-style: none;
             padding: 10px;
