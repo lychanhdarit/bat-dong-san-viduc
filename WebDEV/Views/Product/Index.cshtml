@@ -31,14 +31,23 @@
             list-style: none;
             padding: 10px;
         }
+        #breadcrumb ul {
+            margin-left: -50px;
+        }
+        #breadcrumb li a {
+            color: #c62223;
+            font-weight: bold;
+            padding-top: 10px;
+            display: block;
+        }
 </style>
 <!-- .page-head -->
 <div id="content-wrapper" class="site-content-wrapper site-pages">
     <div id="content" class="site-content layout-boxed">
         <div class="container">
             <div >
-                <h1 class="title">@ViewBag.Name</h1>
-                <img src="/Content/line.jpg" style="max-width:100%">
+                <h1 class="title" style="    margin-bottom: -5px; font-size: 1.5em; color: #c62326;">@ViewBag.Name</h1>
+                <img src="/Content/line.jpg" style="max-width:100%;margin-bottom:30px">
             </div>
             <div class="row">
                 <div class="col-xs-12 site-main-content">
