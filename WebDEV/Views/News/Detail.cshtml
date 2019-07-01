@@ -56,10 +56,12 @@
                     <main id="main" class="site-main default-page blog-single-post clearfix">
                         <article class="blog-post clearfix hentry format-gallery">
 
-                            <header>
-                                <h1 class="entry-title">@Model.name</h1>
-                            </header>
+                            
                             <div class="entry-content clearfix">
+                                <div>
+                                    <h1 class="title" style="    margin-bottom: 5px; font-size: 1.5em; color: #c62326;">@ViewBag.Name</h1>
+                                    <img src="/Content/line.jpg" style="max-width:100%;margin-bottom:30px">
+                                </div>
                                 @Html.Raw(Model.content1)
                             </div>
                             @*<footer class="entry-footer">
